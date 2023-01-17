@@ -1,7 +1,13 @@
 .discover {
     background-color: var(--background-color);
 }
-
+/*
+.discover__separator-wave {
+    background-color: var(--fourth_text-color);
+    position: relative;
+    display: block;
+}
+*/
 .separator_discover {
     font-family: 'Frank Ruhl Libre', sans-serif;
     color: var(--second_text-color);
