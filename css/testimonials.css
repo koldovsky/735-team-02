@@ -1,28 +1,30 @@
 .testimonials {
-background-color: bisque;
-justify-content: center;
-}
-
-.separator {
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 16px;
-    color: brown;
-}
-
-/* .testimonials__title {
-
-}
-
-.customers_quotes {} 
-
-
-.testimonials__customers customer_name {
-    ???
-}
-*/
-
-.round-picture {
-    border-radius: 50%;
-}
- 
+    background-color: var(--background-color-light);
+    justify-content: center;
+    }
+    
+    .separator{
+        margin-top: 20px;
+        margin-left: -10px;
+        justify-content: left;
+    }
+    
+    
+    .cust-image {
+        border-radius: 50%;
+        width: 200px; 
+    }
+    
+    .customer-name {
+        color: var(--color-green-dates);
+    
+    }
+    
+    .customer-quote {
+        color: var(--color-subtitle);
+    }
+    .quote-date {
+        color: var(--color-title);
+    
+    }
+     
