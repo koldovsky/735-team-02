@@ -9,8 +9,9 @@
     font-weight: 700;
     color: var(--color-title);
     text-align: center;
-    margin-top: 18px;
+    /* margin-top: 18px; */
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .separator {
@@ -25,33 +26,40 @@
 }
 
 
-
-
-
 .spikelet-wheat-separator {
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 20px;
     width: 100px;
     display: block;
-    margin-bottom: 20px;
     justify-content: center;
+    text-align: center;
 }
 
 
 .cust-image {
     border-radius: 50%;
     width: 200px;
+    height: auto;
 }
 
 .customer-name {
     color: var(--color-green-dates);
-
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .customer-quote {
-    color: var(--color-subtitle-light);
+    color: #aa7c5a;
     font-family: "Rubik", sans-serif;
+    margin: 20px;
 }
 
 .quote-date {
-    color: var(--color-title);
+    color: #614e44;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 
 }
