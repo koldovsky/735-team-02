@@ -1,30 +1,57 @@
 .testimonials {
     background-color: var(--background-color-light);
     justify-content: center;
-    }
-    
-    .separator{
-        margin-top: 20px;
-        margin-left: -10px;
-        justify-content: left;
-    }
-    
-    
-    .cust-image {
-        border-radius: 50%;
-        width: 200px; 
-    }
-    
-    .customer-name {
-        color: var(--color-green-dates);
-    
-    }
-    
-    .customer-quote {
-        color: var(--color-subtitle);
-    }
-    .quote-date {
-        color: var(--color-title);
-    
-    }
-     
+}
+
+.testimonials__title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--color-title);
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    margin-top: 20px;
+    margin-left: -10px;
+    /* justify-content: left; */
+    /* background-color: var(--background-color-light); */
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: var(--second_text-color);
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+.spikelet-wheat-separator {
+    width: 100px;
+    display: block;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
+.cust-image {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.customer-name {
+    color: var(--color-green-dates);
+
+}
+
+.customer-quote {
+    color: var(--color-subtitle-light);
+    font-family: "Rubik", sans-serif;
+}
+
+.quote-date {
+    color: var(--color-title);
+
+}
