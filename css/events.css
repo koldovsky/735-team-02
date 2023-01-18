@@ -1,0 +1,104 @@
+.conteiner {
+    background-color: var(--background-color);
+}
+
+.separator {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: var(--second_text-color);
+    text-align: center;
+    font-size: 14px;
+}
+.our-events__title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    }
+.spikelet-separator {
+        width: 100px;
+        display: block;
+        margin-bottom: 20px;
+}
+
+.our-events__subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 32px;
+    width: auto;
+    margin: auto;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 40px;
+}
+.open-day, .festival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.open-day__imgage, .festival__image {
+    max-width: 585px;
+    max-height: 423px;
+    object-fit: cover;    
+    
+}
+.open-day__right-side, .festival__left-side {
+    background-color: #37241a;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.event-price {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.event-title {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--second_text-color);
+    margin-bottom: 20px;
+}
+
+.event-date {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.event-text {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 40px;
+}
+
+.schedule-button {
+    width: 200px;
+    height: 40px;
+    background-color: #2c8536;
+    border-radius: 100%;
+
+}
+
+@media (max-width: 500px) {
+
+}

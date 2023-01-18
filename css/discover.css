@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Rubik&display=swap');
-
-.separator {
+.discover {
+    background-color: var(--background-color);
+}
+/*
+.discover__separator-wave {
+    background-color: var(--fourth_text-color);
+    position: relative;
+    display: block;
+}
+*/
+.separator_discover {
     font-family: 'Frank Ruhl Libre', sans-serif;
-    color: rgb(248, 184, 3);
+    color: var(--second_text-color);
     text-align: center;
     font-size: 14px;
 }
@@ -12,14 +20,19 @@
     text-align: center;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
 }
 
 .spikelet-separator {
     width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .discover__text {
     font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 20px;
+    color: var(--text-color);
 }

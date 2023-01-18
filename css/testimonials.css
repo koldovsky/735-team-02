@@ -1,0 +1,65 @@
+.testimonials {
+    background-color: var(--background-color-light);
+    justify-content: center;
+}
+
+.testimonials__title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--color-title);
+    text-align: center;
+    /* margin-top: 18px; */
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.separator {
+    margin-top: 20px;
+    margin-left: -10px;
+    /* justify-content: left; */
+    /* background-color: var(--background-color-light); */
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: var(--second_text-color);
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.spikelet-wheat-separator {
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    width: 100px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cust-image {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+.customer-name {
+    color: var(--color-green-dates);
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.customer-quote {
+    color: #aa7c5a;
+    font-family: "Rubik", sans-serif;
+    margin: 20px;
+}
+
+.quote-date {
+    color: #614e44;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}

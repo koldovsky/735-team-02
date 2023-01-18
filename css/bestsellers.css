@@ -1,4 +1,10 @@
-.bestsellers__title {
+/*joint*/
+.bestsellers {
+    background: var(--background-color);
+}
+
+.beer__title {
+    color: var(--text-color);
     font-size: 44px;
     text-align: center;
     font-weight: 700;
@@ -6,11 +12,68 @@
 }
 
 .beer_about {
-    color: #d2c9ba;
+    color: var(--third_text-color);
 }
 
-.beer_name{
-color: rgb(248 187 3);
-font-family: 'Frank Ruhl Libre', sans-serif;
-font-size: 44px;
+.description {
+    color: var(--fourth_text-color);
+}
+
+.beer_name {
+    color: var(--second_text-color);
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+.beer__gen {
+    color: var(--text-color);
+}
+
+/*Stout*/
+.stout_container {
+    background-image: url(../img/background__barrels.webp);
+    display: flex;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.stout_compositions {
+    color: var(--text-color);
+    text-align: center;
+    width: 70%;
+    text-align: left;
+}
+
+.stout_composition_1 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*Indian*/
+.indian-ale_container {
+    background-image: url(../img/background__barrels.webp);
+    display: flex;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.indian-ale_compositions {
+    color: var(--text-color);
+    text-align: center;
+    width: 40%;
+    text-align: left;
+}
+
+/*American*/
+.american-ale_container {
+    background-image: url(../img/background__barrels.webp);
+    display: flex;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.american-ale_compositions {
+    color: var(--text-color);
+    text-align: center;
+    width: 40%;
+    text-align: left;
 }
