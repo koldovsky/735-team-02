@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 .topline {
     color: var(--background-color);
 }
-=======
->>>>>>> a9512ea915043db1f176c6229ab973eadfb555e0
 
 .footer {
     background-color: var(--background-color);
@@ -28,7 +25,6 @@
 
 
 .footer_contacts {
-<<<<<<< HEAD
     padding-top: 102px;
     padding-bottom: 100px;
     /* margin: auto; */
@@ -97,10 +93,6 @@
 .contacts__map {
     width: 244px;
     margin-top: 30px;
-=======
-    color: #ffffff
-
->>>>>>> a9512ea915043db1f176c6229ab973eadfb555e0
 }
 
 .rightside {
@@ -197,7 +189,6 @@
 
     color: rgb(210, 201, 186);
 }
-<<<<<<< HEAD
 
 .footer__wrap {
     display: flex;
@@ -243,18 +234,3 @@
     justify-content: space-between;
     padding: 15px 40px;
 }
-=======
-td{
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 17px;
-}
-.contacts__tablet_info :hover{
-   color: rgb (230, 183, 10) ;
-}
-.form{
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(170, 124, 90, 0.15);
-    background-color: rgba(50, 39, 34, 0);
-}
->>>>>>> a9512ea915043db1f176c6229ab973eadfb555e0
