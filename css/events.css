@@ -137,6 +137,24 @@
 
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
+    .our-events-content {
+        width: 720px;
+    }
 
+    .open-day {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .festival {
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: center;
+    }
+
+    .open-day__right-side,
+    .festival__left-side {
+        width: 550px;
+    }
 }
