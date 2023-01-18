@@ -106,7 +106,7 @@
     transform: rotate(180deg);
     object-fit: contain;
 }
-
+/* --------------for pc-------------- */
 @media (min-width: 1000px) {
     .main__ourpartners {
         padding: 15px 40px 0 40px;
@@ -126,7 +126,7 @@
         flex: 1;
     }
 }
-
+/* --------------for pc-------------- */
 @media (min-width: 1500px) {
     .main__ourpartners {
         padding: 15px 150px 0 150px;
@@ -154,6 +154,7 @@
         align-items: center;
     }
 }
+/* --------------for pc-------------- */
 @media (min-width: 1500px) {
     .main__ourpartners {
         padding: 15px 375px -40px 375px;
