@@ -74,7 +74,7 @@
 
 }
 
-.open-day__imgage,
+.open-day__image,
 .festival__image {
     display: block;
     width: 280px;
@@ -144,28 +144,42 @@
     }
 
     .open-day {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 30px;
+        /* display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: center; */
     }
 
     .festival {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* display: flex;
         flex-direction:row-reverse;
-        justify-content: center;
+        justify-content: center; */
     }
 
     .open-day__right-side,
-    .festival__left-side {
-        width: 520px;
+    .festival__left-side,
+    .open-day__left-side,
+    .festival__right-side {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
-    .open-day__imgage,
+    .open-day__image,
     .festival__image {
-        width: 510px;
+        width: 100%;
+        object-fit: cover;
+        margin: 0px;
     }
 
     .side__content {
-        width: 520 px;
+        max-width: 100%;
+        min-height: 360px;
+        padding: 30px 20px;;
     }
-}
+} 
+
