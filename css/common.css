@@ -10,6 +10,8 @@
 :root {
     font-family: 'Rubik', 'Frank Ruhl Libre', sans-serif;
     scroll-behavior: smooth;
+    --fourth_text-color: #f4eee1;
+    --third_text-color: #d2c9ba;
     --second_text-color: rgb(248, 187, 3);
     --text-color: #fff;
     --text-color-dark: rgb(210, 201, 186);
@@ -20,6 +22,9 @@
     --colot-title: #261d17;
     --color-subtitle: #614e44;
     --color-subtitle-light: #aa7c5a;
-    
-    
+    --color-our-brewery: rgb(44, 34, 29);
+    --color-green-dates: rgb(44,133,54);
+    --color-text-info:#d2c9ba;
+    --color-tablet-border: rgba(170, 124, 90, 0.15);
+    --color-tablet-form: #342924;
 }
