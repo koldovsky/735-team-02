@@ -1,20 +1,36 @@
 .topline {
-    color: var(--background-color);
+    background-color: var(--text-color-dark);
+    transform: rotate(180deg);
+    margin: 0;
+    /* padding-top: 75px;
+    padding-bottom: 10px; */
+
 }
 
 .footer {
-    background-color: var(--background-color);
-    width: auto;
-    min-width: 320px;
+    box-sizing: border-box;
     font-family: 'Frank Ruhl Libre', serif;
-    display: flex;
-    justify-content: center;
+    background-color: var(--background-color);
+    position: relative;
+    min-width: 320px;
+    margin: 0;
+    /* position: absolute; */
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
+.lefrside {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    max-width: 320px;
+    justify-content: flex-start;
+}
 
 .footer_contacts {
     color: var(--text-color);
-
+    font-size: 34px;
+    padding-top: 102px;
 }
 
 .contacts__title {
@@ -23,19 +39,18 @@
     /* text-align: left; */
 }
 
-
-.footer_contacts {
-    padding-top: 102px;
-    padding-bottom: 100px;
-    /* margin: auto; */
-    /* position: relative; */
-}
-
 .footer__main {
-    display: flex;
-    justify-content: center;
+    font-size: 17px;
+    max-width: 320px;
+    padding-bottom: 90px;
+    margin: 0px 24px;
+    margin: auto;
+
+    /* justify-content: center; */
     /* flex-direction: row; */
-    /* margin: auto; */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    /* display: block; */
 
 }
 
@@ -49,7 +64,11 @@
 }
 
 .contacts__address {
-    display: flex;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 17px;
+    text-align: left;
+    /* display: flex; */
     /* text-align: left; */
 
 }
@@ -57,21 +76,22 @@
 .contacts__street {
     color: var(--color-text-info);
     padding-top: 8px;
-    padding-left: 15px;
     padding-bottom: 8px;
-    display: flex;
-    flex-direction: column;
+    /* padding-left: 15px; */
+    /* display: flex; */
+    /* flex-direction: column; */
 
 }
 
 .contacts__date {
     font-family: 'Frank Ruhl Libre', serif;
     color: var(--color-subtitle-light);
-    padding-top: 8px;
-    padding-right: 15px;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+    margin-bottom: 5px;
+    /* flex-direction: row; */
+    /* padding-top: 8px;
+    padding-right: 15px; */
+    /* display: flex; */
+    /* width: 20%; */
     /* text-align: left; */
     /* display: table; */
 }
@@ -79,10 +99,10 @@
 .contacts__tablet_info {
     color: var(--info-color);
     text-decoration: none;
-    padding-top: 8px;
-    padding-left: 7px;
-    flex-direction: column;
-    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Rubik', serif;
+    /* padding-top: 8px;
+    padding-left: 7px; */
+    /* flex-direction: column; */
     /* display: flex; */
 }
 
@@ -90,27 +110,44 @@
     color: var(--second_text-color);
 }
 
+.contacts__hours {
+    display: block;
+    margin-bottom: 16px;
+}
+
 .contacts__map {
-    width: 244px;
+    box-sizing: border-box;
+    display: block;
     margin-top: 30px;
+    position: relative;
+    height: 224px;
 }
 
 .rightside {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
+    display: block;
+    margin-top: 50px;
+    align-items: center;
+    /* flex-basis: 100%; */
+    /* padding: 0px 15px; */
+    /* flex-direction: row; */
+    /* padding: 39px 55px; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
     /* margin: auto; */
     /* width: 100%; */
     /* padding: 37px, 24px; */
-
 }
 
-.form {
-    background-color: var(--color-tablet-form);
-    padding: 37px 24px;
-    align-items: center;
+.footer__form {
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--color-background-form);
+    padding: 39px 55px;
     width: 100%;
+    font-family: 'Rubik', serif;
+
+    /* align-items: center; */
     /* justify-content: flex-start; */
 
 }
@@ -120,94 +157,145 @@
     margin-bottom: 24px;
     margin-top: 12px;
     border-style: solid;
-    border-width: 2px;
-    border-color: rgba(170, 124, 90, 0.15);
-    background-color: var(--color-tablet-in);
+    display: block;
+    width: 100%;
+    border-color: var(--color-tablet-border);
+    background-color: var(--color-background-form);
     justify-content: center;
+    padding: 13px 37px 13px 37px;
+    color: var(--text-color);
+    font-family: 'Rubik', serif;
     /* outline: auto;
     outline-color:#3b99fc ; */
+    /* border-width: 0; */
+    /* border-width: 2px; */
+}
+
+.form__fullname :hover {
+    border-bottom-color: var(--color-tablet-border);
+    outline: auto;
+    outline-color: #3b99fc;
 }
 
 .form__phone {
     border-radius: 25px;
     margin-bottom: 24px;
+    margin-top: 12px;
     border-style: solid;
-    border-width: 2px;
-    border-color: rgba(170, 124, 90, 0.15);
-    background-color: var(--color-tablet-in);
+    display: block;
+    width: 100%;
+    border-color: var(--color-tablet-border);
+    background-color: var(--color-background-form);
+    justify-content: center;
+    padding: 13px 37px 13px 37px;
+    color: var(--text-color);
+}
+
+.form__phone :hover {
+    border-bottom-color: var(--color-tablet-border);
+    outline: auto;
+    outline-color: #3b99fc;
 }
 
 .form__email {
     border-radius: 25px;
     margin-bottom: 24px;
+    margin-top: 12px;
     border-style: solid;
-    border-width: 2px;
-    background-color: var(--color-tablet-in);
-    /* border-color: rgba(170, 124, 90, 0.15); */
+    display: block;
+    width: 100%;
+    border-color: var(--color-tablet-border);
+    background-color: var(--color-background-form);
+    justify-content: center;
+    padding: 13px 37px 13px 37px;
+    color: var(--text-color);
+}
+
+.form__email :hover {
+    border-bottom-color: var(--color-tablet-border);
+    outline: auto;
+    outline-color: #3b99fc;
 }
 
 .form__details {
     border-radius: 25px;
+    margin-bottom: 24px;
     margin-top: 12px;
     border-style: solid;
-    border-width: 2px;
+    display: block;
     width: 100%;
+    /* border-width: 2px; */
     height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    /* border-color: rgba(170, 124, 90, 0.15); */
-    /* background-color: rgba(50, 39, 34, 0); */
-    /* background-color: #f8f8f8; */
+    padding: 13px 37px;
+    background-color: var(--color-background-form);
+    border-color: var(--color-tablet-border);
+    /* justify-content: center; */
+    color: var(--text-color);
+}
 
+.form__details :hover {
+    border-bottom-color: var(--color-tablet-border);
+    outline: auto;
+    outline-color: #3b99fc;
 }
 
 .form__submit {
+    box-sizing: border-box;
     border-radius: 25px;
-    background-color: #2c8536;
+    color: var(--text-color);
+    /* align-items: center; */
+    /* display: flex; */
+    /* border-color: var(--color-green-dates); */
+    padding: 13px 37px 13px 37px;
+    background-color: var(--color-green-dates);
     text-align: center;
     cursor: pointer;
     padding: 13px 37px 13px 37px;
     margin-top: 56px;
     position: relative;
-    max-width: 100%;
-    /* box-sizing: border-box; */
-    /* display: inline-block; */
-    /* text-decoration: none; */
-    /* background-position: 50%; */
-    /* overflow: visible; */
+    width: 100%;
+    border: none;
+}
 
+.form__details :hover {
+    border-bottom-color: var(--color-tablet-border);
+    outline: auto;
 }
 
 .footer__menu {
     background-color: #261d17;
+    margin-top: 30px;
+    min-width: 320px;
 }
 
 .footer__underline {
-
     color: rgb(210, 201, 186);
 }
 
 .footer__wrap {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     padding: 70px 40px 20px 40px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+    /* justify-content: center; */
+    /* text-align: center; */
 }
 
 .img_logo {
     cursor: pointer;
     display: flex;
     height: auto;
+    margin: auto;
+    justify-content: center;
 }
 
 .footer__nav {
-    display: block;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
     font-family: 'Rubik', sans-serif;
-    margin: 0px 15px 0px 15px;
-
+    margin: auto;
+    text-align: center;
 }
 
 .menu__item {
@@ -218,19 +306,28 @@
 }
 
 .menu__item:hover {
-    color: rgb(248 187 3);
+    color: var(--second_text-color);
 }
 
 .footer__endline {
-    width: 550px;
+    width: 320px;
     height: 1px;
-    border: 1px solid #514a45;
+    border: 1px solid var(--color-endline);
     margin: auto;
-
 }
 
 .footer__underline {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 40px;
+    text-align: center;
+    margin: auto;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 15px 0px;
+    font-family: 'Rubik', sans-serif;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* align-items: stretch; */
+}
+
+.footer_reserved {
+    margin: 15px 0px;
 }
