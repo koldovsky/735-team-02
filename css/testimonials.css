@@ -1,7 +1,25 @@
 .testimonials {
     background-color: var(--background-color-light);
-    justify-content: center;
+    display:block;
+    margin: auto;
+    padding: 0;
+    width: 100%;
 }
+.top-wave-img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    object-fit: contain;
+}
+.top-line-img {
+    background-color: var(--background-color-light);
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    object-fit: contain;
+}
+
 
 .testimonials__title {
     font-family: 'Frank Ruhl Libre', serif;
@@ -14,7 +32,7 @@
     justify-content: center;
 }
 
-.separator {
+.separator-xxx {
     margin-top: 20px;
     margin-left: -10px;
     /* justify-content: left; */
@@ -23,24 +41,70 @@
     color: var(--second_text-color);
     text-align: center;
     font-size: 14px;
+    font-weight: bold;
 }
 
 
 .spikelet-wheat-separator {
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-bottom: 20px;
     width: 100px;
     display: block;
-    justify-content: center;
-    text-align: center;
+    margin: auto;
 }
 
+.testimonials__subtitle {
+    display: block;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-xxx);
+    text-align: center;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+}
 
-.cust-image {
+.testimonials__customers {
+    justify-content: center;
+    margin: auto;
+}
+.cust-image_peterson {
+    display: block;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 25% 39%;
     border-radius: 50%;
     width: 200px;
-    height: auto;
+    height: 200px;
+}
+
+.cust-image_erica {
+    display: block;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 25% 15%;
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.cust-image_bowman {
+    display: block;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 25% 15%;
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    height: 200px;
 }
 
 .customer-name {
@@ -48,12 +112,23 @@
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-size: 28px;
     font-weight: bold;
+    text-align: center;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
 }
 
 .customer-quote {
+    display: block;
     color: #aa7c5a;
-    font-family: "Rubik", sans-serif;
-    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .quote-date {
@@ -61,5 +136,10 @@
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
 
 }
