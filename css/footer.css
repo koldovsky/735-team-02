@@ -189,6 +189,7 @@
     justify-content: center;
     padding: 13px 37px 13px 37px;
     color: var(--text-color);
+    font-family: 'Rubik', serif;
 }
 
 .form__phone :hover {
@@ -209,6 +210,7 @@
     justify-content: center;
     padding: 13px 37px 13px 37px;
     color: var(--text-color);
+    font-family: 'Rubik', serif;
 }
 
 .form__email :hover {
@@ -224,13 +226,12 @@
     border-style: solid;
     display: block;
     width: 100%;
-    /* border-width: 2px; */
     height: 150px;
     padding: 13px 37px;
     background-color: var(--color-background-form);
     border-color: var(--color-tablet-border);
-    /* justify-content: center; */
     color: var(--text-color);
+    font-family: 'Rubik', serif;
 }
 
 .form__details :hover {
@@ -241,11 +242,9 @@
 
 .form__submit {
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
     border-radius: 25px;
     color: var(--text-color);
-    /* align-items: center; */
-    /* display: flex; */
-    /* border-color: var(--color-green-dates); */
     padding: 13px 37px 13px 37px;
     background-color: var(--color-green-dates);
     text-align: center;
@@ -255,6 +254,10 @@
     position: relative;
     width: 100%;
     border: none;
+    font-size: 0.9rem;
+    /* align-items: center; */
+    /* display: flex; */
+    /* border-color: var(--color-green-dates); */
 }
 
 .form__details :hover {
@@ -330,4 +333,5 @@
 
 .footer_reserved {
     margin: 15px 0px;
+    font-family: 'Rubik', sans-serif;
 }
