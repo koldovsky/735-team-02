@@ -21,4 +21,10 @@
     --color-subtitle: #614e44;
     --color-subtitle-light: #aa7c5a;
     --color-our-brewery: rgb(44, 34, 29);
+    --color-green-dates: rgb(44,133,54);
+    --color-text-info:#d2c9ba;
+    --color-tablet-border: rgba(170, 124, 90, 0.15);
+    --color-tablet-form: #342924;
+    --color-background-form: rgb(52, 41, 36);
+    --color-endline:#514a45;
 }
