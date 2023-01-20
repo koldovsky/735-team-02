@@ -1,5 +1,6 @@
 .our-brewery {
     background-color: var(--color-our-brewery);
+    color: var(--fourth_text-color);
     width: auto;
     height: auto;
     align-items: center;
@@ -43,7 +44,7 @@
 .our-brewery__gallery-container {
     margin-top: 50px;
 }
-.our-brewery__image {
+.crafted__image {
     justify-content: center;
     align-items: center;
     text-align: center;
