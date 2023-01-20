@@ -1,0 +1,66 @@
+.section-choice {
+    background-color: #f4eee1; 
+}
+.section-choice__container {
+    max-width: 896px;
+    margin: 0 auto;
+}
+.section-choice__wrapper {
+    display: flex;    
+@media screen and (max-width: 480px) {
+    flex-direction: column; 
+}
+}
+.section-choice__picture {
+    width: 50%; 
+}
+.section-choice__img {
+    width: 100%;
+    margin-top: 170px;
+    margin-left: -100px;
+}
+.section-choice__text {
+    width: 50%;
+}
+.section-choice__separator {
+    color: #aa7c5a;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+.section-choice__spikelet-separator {
+    padding-bottom: 20px;
+    color: #aa7c5a;
+}
+.section-choice__title {
+    max-width: 272px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    padding-bottom: 20px;
+}
+.section-choice__subtitle {
+    font-size: 20px;
+    color: #614e44;
+    font-family: 'Rubik', sans-serif;
+    max-width: 264px;
+    padding-bottom: 40px;
+}
+.section-choice__list {
+    color: #614e44;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+.section-choice__question {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+.section-choice__answer {
+    padding-bottom: 10px;
+}
+.section-choice__hr {
+    margin-bottom: 10px;
+}
+.section-choice__hr:last-child {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,99 @@
+.main__videotour {
+    background: url("../img/background_light.png") 40%;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.videotour__header {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    line-height: 30px;
+    padding: 30px 24px 30px 24px;
+    text-align: center;
+}
+
+.videotour__x {
+    color: var(--color-xxx);
+    font-size: 14px;
+    text-align: left;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+}
+
+.videotour__title {
+    color: var(--colot-title);
+    margin-top: 20px;
+    font-size: 34px;
+    font-family: "Frank Ruhl Libre", sans-serif;
+}
+
+.videotour__wheat {
+    margin-top: 20px;
+}
+
+.videotour__subtitle {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "Rubik", serif;
+    line-height: 32px;
+    color: var(--color-subtitle);
+}
+
+.videotour__body {
+    padding: 30px 0px 30px 0px;
+    /*  max-width: 1170;
+    max-height: 664px; */
+}
+
+.videotour__body__img {
+    /* max-width:100%;
+    height: 664px; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.videotour__box{
+    box-sizing: border-box;
+    max-height: 492px;
+    min-width: 342px;
+    background-image: url(../img/brewery.webp);
+    background-size: cover;
+}
+.box__section{
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.videotour__body__img-pausa{
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 1500px) {
+    .main__videotour {
+        padding: 70px 150px 15px 150px;
+        min-height: 900px;
+    }
+    .videotour__box{
+        box-sizing: border-box;
+        min-height: 664px;
+        min-width: 1000px;
+        background-size: cover;
+    }
+    .videotour__body__img-pausa{
+        width: 70px;
+        height: 70px;
+    }
+    .box__section{
+        padding: 51px 51px;
+    }
+
+}

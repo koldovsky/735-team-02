@@ -1,0 +1,40 @@
+
+.footer {
+    background-color: #2c221d;
+}
+
+.topline {
+    color: #2c221d;
+
+}
+
+.footer_contacts {
+    color: #ffffff
+
+}
+
+.rightside {
+    background-color: #342924;
+}
+
+.footer__menu {
+    background-color: #261d17;
+}
+
+.footer__underline {
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgb(210, 201, 186);
+}
+td{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 17px;
+}
+.contacts__tablet_info :hover{
+   color: rgb (230, 183, 10) ;
+}
+.form{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(170, 124, 90, 0.15);
+    background-color: rgba(50, 39, 34, 0);
+}
