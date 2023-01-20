@@ -81,6 +81,7 @@
     align-items: center;
 }
 
+
 .cust-image_peterson {
     display: block;
     padding: 20px 20px 20px 20px;
@@ -170,6 +171,8 @@
     .testimonials__customers {
         display: flex;
     }
+
+
 }    
 
 
@@ -195,6 +198,6 @@
         justify-content: center;
         align-items: center;
     }
+
 }
 
- 
