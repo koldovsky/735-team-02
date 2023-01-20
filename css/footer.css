@@ -12,8 +12,8 @@
     font-family: 'Frank Ruhl Libre', serif;
     background-color: var(--background-color);
     position: relative;
-    min-width: 320px;
-    margin: 0;
+    /* min-width: 320px; */
+    /* margin: 0; */
     /* position: absolute; */
     /* display: flex; */
     /* justify-content: center; */
@@ -23,14 +23,15 @@
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
-    max-width: 320px;
     justify-content: flex-start;
+    /* max-width: 320px; */
 }
 
 .footer_contacts {
     color: var(--text-color);
     font-size: 34px;
     padding-top: 102px;
+    /* max-width: 320px; */
 }
 
 .contacts__title {
@@ -41,9 +42,6 @@
 
 .conteiner {
     font-size: 17px;
-    /* max-width: 320px; */
-    
-
 }
 
 .footer__main {
@@ -292,7 +290,9 @@ iframe {
 .footer__menu {
     background-color: #261d17;
     margin-top: 30px;
-    /* min-width: 320px; */
+    max-width: 320px;
+    margin: 0px 24px;
+
 }
 
 .footer__underline {
@@ -302,6 +302,7 @@ iframe {
 .footer__wrap {
     display: block;
     padding: 70px 40px 20px 40px;
+    min-width: 320px;
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: stretch; */
@@ -313,7 +314,7 @@ iframe {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .footer__nav {
