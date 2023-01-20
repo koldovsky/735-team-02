@@ -147,7 +147,7 @@ iframe {
     display: block;
     margin-top: 50px;
     align-items: center;
-    max-width: 320px;
+
     /* flex-basis: 100%; */
     /* padding: 0px 15px; */
     /* flex-direction: row; */
@@ -290,9 +290,6 @@ iframe {
 .footer__menu {
     background-color: #261d17;
     margin-top: 30px;
-    max-width: 320px;
-    margin: 0px 24px;
-
 }
 
 .footer__underline {
