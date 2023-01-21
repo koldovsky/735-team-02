@@ -1,15 +1,13 @@
 .blog {
     text-align: center;
-    background-color: var(--background-color-light);
+    background-color: var(--background-color);
 }
-
 .separator {
     color: var(--color-xxx);
     font: 14px;
     font-family: 'Frank Ruhl Libre', serif;
     margin-bottom: 15px;
 }
-
 .blog__title {
     color: var(--colot-title);
     font-size: 45px;
@@ -18,46 +16,12 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
 .wheat-separator {
     margin-top: 10px;
 }
-
 .blog__subtitle {
     color: var(--color-subtitle);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     padding-bottom: 50px;
-}
-
-.blog-articles {
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(97, 78, 68);
-    border-width: 2px;
-    padding: 5px;
-    box-sizing: px;
-    text-align: center;
-    padding-left: 350px;
-    margin-bottom: 500px;
-    width: 930px;
-    height: 450px;
-    min-width: 270px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 300px;
-}
-
-.blog__text {
-    color: rgb(38, 29, 23);
-    font-size: 24px;
-    width: 970px;
-    height: 470px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
 }
