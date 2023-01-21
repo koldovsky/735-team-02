@@ -121,8 +121,8 @@
 /* --------------for pc-------------- */
 @media (min-width: 1200px) {
     .main__videotour {
-        padding: 70px 40px 15px 40px;
-        min-height: 900px;
+        padding: 70px 150px 15px 150px;
+        min-height: 1077px;
     }
     .videotour__body{
         min-width: 1170px;
@@ -136,12 +136,5 @@
     }
     .box__section {
         padding: 51px 51px;
-    }
-}
-/* --------------for pc-------------- */
-@media (min-width: 1500px) {
-    .main__videotour {
-        padding: 70px 150px 15px 150px;
-        min-height: 1077px;
     }
 }
