@@ -1,0 +1,90 @@
+.section-visit__wrapper {
+    width: 100%;
+    background: var(--background-color_dark); 
+    background-attachment: fixed;
+    background-size: cover;
+    /*rgba(255, 255, 255, 0);*/
+}
+.section-visit__container {
+    max-width: 430px;
+    margin: 0 auto;     
+}
+@media (min-width: 768px) {
+    .section-visit__container {
+        max-width: 708px;
+        margin: 0 auto;
+    } 
+}
+@media (min-width: 980px) {
+    .section-visit__container {
+        max-width: 896px;
+        margin: 0 auto;
+    }     
+}
+.section-visit__title {
+    font-size: 58px;
+    font-weight: bold;
+    color: var(--text-color);
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    max-width: 260px;
+    padding-bottom: 40px;    
+}
+.section-visit__separator {
+    font-size: 14px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: var(--second_text-color);
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+.section-visit__spikelet-separator {
+    padding-bottom: 30px;
+}
+.section-visit__subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    font-family: 'Rubik', sans-serif;
+    max-width: 277px;
+    padding-bottom: 40px;
+}
+.section-visit__buttons {
+    padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .section-visit__buttons {
+        display: flex;
+        gap: 30px;
+    }
+}
+.section-visit__button1 {
+    width: 175px;
+    height: 45px;
+    background-color: var(--button-color_green);
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.section-visit__button2 {
+    width: 187px;
+    height: 50px;
+    background-color: var(--button-color_darkgreen);
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 55px; 
+    margin-bottom: 20px;       
+}
+/*.section-visit__picture {
+    width: auto;
+    height: 842px;  
+    position: relative;  
+}
+<img class="section-visit__picture" src="img/beer_and_leaves.png" alt="Beer and leaves">*/

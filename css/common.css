@@ -27,4 +27,10 @@
     --color-tablet-form: #342924;
     --color-background-form: rgb(52, 41, 36);
     --color-endline:#514a45;
+    --background-color_dark: #261d17;
+    --text-color_black: #000;
+    --button-color_green: green;
+    --button-color_darkgreen: darkgreen;
+    --background-color_choice: #f4eee1;
+    --text-color_choice: #614e44;
 }
