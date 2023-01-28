@@ -4,8 +4,9 @@
 /*
 .discover__separator-wave {
     background-color: var(--fourth_text-color);
-    position: relative;
-    display: block;
+       width: auto;
+    height: auto;
+    align-items: center;
 }
 */
 .separator_discover {
