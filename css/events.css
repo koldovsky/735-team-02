@@ -139,7 +139,14 @@
     bottom: 0px;
     box-shadow: inset 10px 0px 10px#246c2d;
 }
+.side__clock {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--second_text-color);
+    margin-left: 25px;
 
+}
 
 @media (min-width: 700px){
     .our-events-content {
