@@ -1,0 +1,27 @@
+.blog {
+    text-align: center;
+    background-color: var(--background-color);
+}
+.separator {
+    color: var(--color-xxx);
+    font: 14px;
+    font-family: 'Frank Ruhl Libre', serif;
+    margin-bottom: 15px;
+}
+.blog__title {
+    color: var(--colot-title);
+    font-size: 45px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.wheat-separator {
+    margin-top: 10px;
+}
+.blog__subtitle {
+    color: var(--color-subtitle);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
