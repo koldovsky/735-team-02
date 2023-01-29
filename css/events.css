@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    /* margin-bottom: 20px; */
 }
 
 
@@ -99,6 +99,15 @@
     margin-bottom: 20px;
 }
 
+.open-day__side__clock,
+.festival__side__clock {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--second_text-color);
+    margin-bottom: 20px;
+     
+}
 .event-date {
     font-family: 'Frank Ruhl Libre';
     font-size: 14px;
@@ -140,6 +149,15 @@
     box-shadow: inset 10px 0px 10px#246c2d;
 }
 
+.open-day__side__clock,
+.festival__side__clock {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--second_text-color);
+    }
+
+
 
 @media (min-width: 700px){
     .our-events-content {
@@ -151,7 +169,7 @@
     .open-day {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         max-height: 366px;
         /* display: flex;
         flex-direction: row;
@@ -171,7 +189,7 @@
     .open-day__left-side,
     .festival__right-side {
         width: 100%;
-        height: 366px;
+        height: 100%;
     }
 /* height */
     .open-day__image,
@@ -191,7 +209,7 @@
         padding: 30px 20px;; */
     }
 
-    .conteiner {
-      margin-bottom: 20px;
-} 
+    /* .conteiner {
+      padding: 20px;
+}  */
 }

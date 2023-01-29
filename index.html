@@ -110,8 +110,6 @@
     <main class="main">
         <!--Tetiana Peleieva-->
         <section class="discover">
-            <img class="discover___separator-wave" src="img/dark-wave-separator.svg" alt="Separator Wave">
-            </div>-->
             <div class="discover__info">
                 <p class="separator_discover">☓ ☓ ☓</p>
                 <h2 class="discover__title">Discover Our Beer</h2>
@@ -130,7 +128,7 @@
             <div class="bestsellers__info">
                 <div class="stout_container">
                     <div class="stout_image-container">
-                        <img width="570" class="botle__stout" src="img/imperial_stout.png" alt="Botle of stout">
+                        <img class="botle" src="img/imperial_stout.png" alt="Botle of stout">
                     </div>
                     <div class="stout_content">
                         <p class="separator_bestsellers">☓ ☓ ☓</p>
@@ -142,7 +140,8 @@
                         <p class="beer_about">
                             A hallmark of this beer is that it is made from 8 different varieties of malt and 3
                             varieties of
-                            hops. Thanks to this, it is possible to achieve an amazing, unique taste of strong beer. The
+                            hops. Thanks to this, it is possible to achieve an amazing, unique taste of strong beer.
+                            The
                             highlight of our imperial stout is a light chocolate flavor.
                         </p>
                         <div class="stout_compositions">
@@ -167,7 +166,7 @@
                 </div>
                 <div class="indian-ale_container">
                     <div class="indian-ale_image-container">
-                        <img width="570" src="img/indian_ale.png" alt="Botle of indian ale">
+                        <img class="botle" src="img/indian_ale.png" alt="Botle of indian ale">
                     </div>
                     <div class="indian-ale_content">
                         <p class="separator_bestsellers">☓ ☓ ☓</p>
@@ -203,7 +202,7 @@
                 </div>
                 <div class="american-ale_container">
                     <div class="american-ale_image-container">
-                        <img width="570" src="img/american_ale.png" alt="Botle of american ale">
+                        <img class="botle" src="img/american_ale.png" alt="Botle of american ale">
                     </div>
                     <div class="american-ale_content">
                         <p class="separator_bestsellers">☓ ☓ ☓</p>
@@ -213,7 +212,8 @@
                         <p class="beer__gen">FRUITY</p>
                         <p class="beer_name">AMERICAN PALE ALE</p>
                         <p class="beer_about">
-                            American pale ale is similar to Indian pale ale, but in this case, only American-made hops
+                            American pale ale is similar to Indian pale ale, but in this case, only American-made
+                            hops
                             and malt are used. At the same time, APA is characterized by a stunning combination of
                             citrus notes: grapefruit, lemon, orange, as well as hop bitterness, traditional for ale.
                         </p>
@@ -239,6 +239,7 @@
                 </div>
             </div>
         </section>
+
 
         <!--Olesko-->
         <div class="main__section__gallery">
@@ -269,8 +270,23 @@
                 </p>
             </div>
             <div class="videotour__body">
-                <img class="videotour__body__img" src="img/brewery.webp" alt="brewery">
-                <img class="videotour__body__img-pausa" src="img/pausa.svg" alt="pausa">
+                <div class="videotour__box">
+                    <span class="box__section">
+                        <br>
+                    </span>
+                    <span class="box__section">
+                        <br>
+                    </span>
+                    <span class="box__section">
+                        <img class="videotour__body__img-pausa" src="img/pausa.svg" alt="pausa">
+                    </span>
+                    <span class="box__section">
+                        <br>
+                    </span>
+                    <span class="box__section">
+                        <br>
+                    </span>
+                </div>
             </div>
         </section>
 
@@ -358,13 +374,16 @@
                         <div class="side__content">
                             <p class="event-price">Free</p>
                             <h3 class="event-title">OPEN DAY</h3>
-                            <p class="event-date">AUGUST 19, 2022</p>
+                            <p class="open-day__side__clock"></p>
+                            <p class="event-date">AUGUST 19, 2023</p>
                             <p class="event-text">Do you want to know all the secrets of brewing? Want to understand how
                                 real
                                 craft beer is made? We will tell you, show you, and offer a free tasting.</p>
                             <!-- Кнопка через "а" -->
                             <a href="#footer" class="schedule-button">Book</a>
+                            
                         </div>
+                        
                     </div>
                 </div>
 
@@ -376,11 +395,14 @@
                         <div class="side__content">
                             <p class="event-price">From $80</p>
                             <h3 class="event-title">AUTUMN BEER FESTIVAL</h3>
-                            <p class="event-date">SEPTEMBER 01, 2022</p>
+                            <p class="festival__side__clock"></p>
+                            <p class="event-date">SEPTEMBER 01, 2023</p>
                             <p class="event-text">Do you want to not only enjoy beer but also have fun? We're holding a
                                 festival! The best beers, live music and fantastic atmosphere are waiting!</p>
                             <a href="#footer" class="schedule-button">Book</a>
+                            
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -462,14 +484,15 @@
                     <div class="section-visit__subtitle">
                         Sign up for a tour or tasting to learn more about our beers and the brewery.
                     </div>
-                    <div class="section-visit__button1">
-                        Book Now
-                    </div>
-                    <div class="section-visit__button2">
-                        Learn More
+                    <div class="section-visit__buttons">
+                        <div class="section-visit__button1">
+                            Book Now
+                        </div>
+                        <div class="section-visit__button2">
+                            Learn More
+                        </div>
                     </div>
                 </div>
-                <img class="section-visit__picture" src="img/beer_and_leaves.png" alt="Beer and leaves">
             </div>
         </section>
         <section class="section-choice">
@@ -661,6 +684,9 @@
             </div>
         </section>
     </footer>
+    <script src="js/bestsellers-carousel.js"></script>
+    <script src="/js/events.js"></script>
+    <script src="/js/events_timer.js"></script>
 </body>
 
 </html>
