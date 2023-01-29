@@ -3,7 +3,7 @@
     timer.innerText = ''
     
     const x = setInterval(function () {
-      const endTime = new Date("2023-03-27T23:59:59");
+      const endTime = new Date("2023-08-19T23:59:59");
       const startTime = new Date().getTime('uk');
       const distance = endTime - startTime;
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -28,7 +28,7 @@
     timer.innerText = ''
     
     const x = setInterval(function () {
-      const endTime = new Date("2023-04-27T23:59:59");
+      const endTime = new Date("2023-09-01T23:59:59");
       const startTime = new Date().getTime();
       const distance = endTime - startTime;
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
