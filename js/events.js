@@ -1,3 +1,4 @@
+// Зміна назви
 (function () {
     function getTitleMessage() {
       const titleMessages = ["Our Bear Events", "Stay closer", "Stay tuned!"];
@@ -5,7 +6,4 @@
     } 
     const headerH2 = document.querySelector(".our-events__title");
     headerH2.innerText = getTitleMessage();
-  })();
-
-
 
