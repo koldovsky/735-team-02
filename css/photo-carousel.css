@@ -1,0 +1,12 @@
+.main__section__gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    min-height: 390px;
+    background-color: var(--background-color-light);
+}
+.slides{
+    width: 346px;
+    height: 390px;
+}
