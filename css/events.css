@@ -1,6 +1,6 @@
 .our-events__our-events {
     background-color: var(--background-color);
-    /* width: 320px; */
+    min-width: 320px;
     
 }
 

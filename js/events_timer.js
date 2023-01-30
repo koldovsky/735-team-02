@@ -47,3 +47,14 @@
     }, 1000);
     })()
   
+
+    (function (){
+
+      const openday = document.querySelector(".open-day")
+      const festival = document.querySelector(".festival")
+
+      const carousel = [openday, festival]
+
+
+
+    })()
