@@ -75,6 +75,21 @@
     padding: 20px 20px 20px 20px;
 }
 
+/* Carousel  */
+.testimonials__carousel {
+    width: 60%;
+    margin: auto;
+}
+
+.carousel__slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
+
+/* --End carousel-- */
+
 .testimonials__customers {
     justify-content: center;
     margin: auto;
