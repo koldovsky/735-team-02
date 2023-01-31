@@ -131,7 +131,7 @@
 iframe {
     filter: grayscale(90%);
     height: 100%;
-    width: 100%;
+    width: 55%;
 
 }
 
@@ -413,6 +413,11 @@ iframe {
 }
 
 @media (min-width:991px) {
+    .contact__main{
+        margin: auto;
+        max-width: 1100px;
+    }
+    
     .footer__main {
         width: 50%;
         margin: 0;
@@ -423,8 +428,8 @@ iframe {
     }
 
     .footer__form {
-        height: 665px;
-
+        height: 671px;
+        width: auto;
     }
 
     .footer__nav {
