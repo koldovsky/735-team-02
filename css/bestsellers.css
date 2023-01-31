@@ -1,4 +1,11 @@
 /*joint*/
+
+.botle {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
 .bestsellers {
     background: var(--background-color);
 }
@@ -29,11 +36,13 @@
 }
 
 /*Stout*/
+
 .stout_container {
     background-image: url(../img/background__barrels.webp);
-    display: flex;
     background-size: cover;
     background-position: 50% 50%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .stout_compositions {
@@ -51,9 +60,10 @@
 /*Indian*/
 .indian-ale_container {
     background-image: url(../img/background__barrels.webp);
-    display: flex;
     background-size: cover;
     background-position: 50% 50%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .indian-ale_compositions {
@@ -66,9 +76,10 @@
 /*American*/
 .american-ale_container {
     background-image: url(../img/background__barrels.webp);
-    display: flex;
     background-size: cover;
     background-position: 50% 50%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .american-ale_compositions {
@@ -76,4 +87,18 @@
     text-align: center;
     width: 40%;
     text-align: left;
+}
+
+@media (min-width: 600px) {
+    .stout_container {
+        display: flex;
+    }
+
+    .indian-ale_container {
+        display: flex;
+    }
+
+    .american-ale_container {
+        display: flex;
+    }
 }

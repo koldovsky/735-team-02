@@ -1,0 +1,16 @@
+.main__section__gallery{
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    justify-content:center;
+    align-items: center;
+    min-height: 390px;
+    background-color: var(--background-color-light);
+}
+.gallery__container{
+    display: flex;
+}
+.slides{
+    width: 345px;
+    height: 390px;
+}

@@ -154,9 +154,3 @@
         align-items: center;
     }
 }
-/* --------------for pc-------------- */
-@media (min-width: 1500px) {
-    .main__ourpartners {
-        padding: 15px 375px -40px 375px;
-    }
-}

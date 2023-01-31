@@ -14,19 +14,33 @@
     --third_text-color: #d2c9ba;
     --second_text-color: rgb(248, 187, 3);
     --text-color: #fff;
-    --text-color-dark: rgb(210, 201, 186);
     --background-color: #2c221d;
     --background-color-light: rgb(244, 238, 225);
-    --background-text-color: #37241a;
     --color-xxx: rgb(150, 90, 28);
     --colot-title: #261d17;
     --color-subtitle: #614e44;
     --color-subtitle-light: #aa7c5a;
     --color-our-brewery: rgb(44, 34, 29);
-    --color-green-dates: rgb(44,133,54);
-    --color-text-info:#d2c9ba;
+    --color-green-dates: rgb(44, 133, 54);
+    --color-text-info: #d2c9ba;
     --color-tablet-border: rgba(170, 124, 90, 0.15);
     --color-tablet-form: #342924;
     --color-background-form: rgb(52, 41, 36);
-    --color-endline:#514a45;
+    --color-endline: #514a45;
+    --background-color_dark: #261d17;
+    --text-color_black: #000;
+    --button-color_green: green;
+    --button-color_darkgreen: darkgreen;
+    --background-color_choice: #f4eee1;
+    --text-color_choice: #614e44;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.img {
+    display: block;
+    width: 100%;
 }

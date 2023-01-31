@@ -1,6 +1,6 @@
 .our-events__our-events {
     background-color: var(--background-color);
-    /* width: 320px; */
+    min-width: 320px;
     
 }
 
@@ -15,7 +15,7 @@
     margin-bottom: 0px;
 }
 
-.separator {
+.separatorXXX {
     font-family: 'Rubik';
     color: var(--second_text-color);
     font-weight: 900;
@@ -50,7 +50,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: var(--text-color-dark);
+    color: var(--text-color);
     text-align: center;
     line-height: 32px;
     margin: auto;
@@ -62,13 +62,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    /* margin-bottom: 20px; */
 }
 
 
 .open-day__right-side,
 .festival__left-side {
-    background-color: var(--background-text-color);
+    background-color: #392c26;
     padding-top: 20px;
     padding-bottom: 40px;
 
@@ -87,7 +87,7 @@
     font-family: 'Frank Ruhl Libre';
     font-size: 14px;
     font-weight: 900;
-    color: var(--text-color-dark);
+    color: var(--fourth_text-color);
     margin-bottom: 20px;
 }
 
@@ -99,11 +99,20 @@
     margin-bottom: 20px;
 }
 
+.open-day__side__clock,
+.festival__side__clock {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--second_text-color);
+    margin-bottom: 20px;
+     
+}
 .event-date {
     font-family: 'Frank Ruhl Libre';
     font-size: 14px;
     font-weight: 900;
-    color: var(--text-color-dark);
+    color: var(--fourth_text-color);
     margin-bottom: 20px;
 }
 
@@ -112,7 +121,7 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
-    color: var(--text-color-dark);
+    color: var(--fourth_text-color);
     margin-bottom: 40px;
     display: block;
 }
@@ -140,6 +149,16 @@
     box-shadow: inset 10px 0px 10px#246c2d;
 }
 
+.open-day__side__clock,
+.festival__side__clock {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--second_text-color);
+    height: 20px;
+    }
+
+
 
 @media (min-width: 700px){
     .our-events-content {
@@ -151,7 +170,7 @@
     .open-day {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         max-height: 366px;
         /* display: flex;
         flex-direction: row;
@@ -171,7 +190,7 @@
     .open-day__left-side,
     .festival__right-side {
         width: 100%;
-        height: 366px;
+        height: 100%;
     }
 /* height */
     .open-day__image,
@@ -186,11 +205,12 @@
 
     .side__content {
         width: 100%;
-        min-height: 360px;
-        padding: 30px 20px;;
+        height: 100%
+        /* min-height: 360px;
+        padding: 30px 20px;; */
     }
 
-    .conteiner {
-      margin-bottom: 20px;
-} 
+    /* .conteiner {
+      padding: 20px;
+}  */
 }

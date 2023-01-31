@@ -1,0 +1,26 @@
+.blog__button {
+    background-color: rgb(44, 133, 54);
+    border-color: rgb(44, 133, 54);
+    border-style: solid;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    text-decoration-line: none;
+    border-width: 17px;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    white-space: nowrap;
+}
+.blog__button:hover {
+    background-color: #0d3b10;
+    border-color: #0d3b10;
+}
