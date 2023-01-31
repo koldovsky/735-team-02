@@ -1,12 +1,16 @@
 .main__section__gallery{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     position: relative;
     min-height: 390px;
     background-color: var(--background-color-light);
 }
+/* .slide__container__carousel{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+} */
 .slides{
-    width: 346px;
+    width: 345px;
     height: 390px;
 }

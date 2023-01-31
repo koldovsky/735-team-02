@@ -1,9 +1,9 @@
 (function () {
     const slides = [
-        '<img class="slides" src="img/four_woman_with_beer.png">',
-        '<img class="slides" src="img/breaks_beer.png">',
-        '<img class="slides" src="img/pour_beer.png">',
-        '<img class="slides" src="img/man_drink_beer_.png">',
+        '<div class="slide__container__carousel"><img class="slides" src="img/four_woman_with_beer.png"></div>',
+        '<div class="slide__container__carousel"><img class="slides" src="img/breaks_beer.png"></div>',
+        '<div class="slide__container__carousel"><img class="slides" src="img/pour_beer.png"></div>',
+        '<div class="slide__container__carousel"><img class="slides" src="img/man_drink_beer_.png"></div>',
     ]
 
     let currentSlideIndex = 0;
@@ -21,8 +21,18 @@
         renderslide()
     }
 
-    setInterval(nextslide,1000);
+    setInterval(nextslide,3000);
 
     renderslide();
+
+    const btnNext = document.querySelector('.button__gallery__next');
+    btnNext.addEventListener('click',nextslide);
+
+    const btnPrev = document.querySelector('.button__gallery__prew');
+    btnPrev.addEventListener('click',() => {
+        currentSlideIndex =  currentSlideIndex - 1 < 0 ? slides.length - 1 : currentSlideIndex - 1;
+        renderslide();
+    })
+
     
 })();
