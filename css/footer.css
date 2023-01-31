@@ -67,7 +67,7 @@
     margin-bottom: 15px;
     font-size: 17px;
     text-align: left;
-    
+
 }
 
 .contacts__street {
@@ -413,11 +413,11 @@ iframe {
 }
 
 @media (min-width:991px) {
-    .contact__main{
+    .contact__main {
         margin: auto;
         max-width: 1100px;
     }
-    
+
     .footer__main {
         width: 50%;
         margin: 0;
