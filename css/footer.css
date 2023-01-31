@@ -131,7 +131,7 @@
 iframe {
     filter: grayscale(90%);
     height: 100%;
-    width: 55%;
+    width: 100%;
 
 }
 
@@ -413,6 +413,7 @@ iframe {
 }
 
 @media (min-width:991px) {
+
     .contact__main {
         margin: auto;
         max-width: 1100px;
@@ -440,5 +441,10 @@ iframe {
     .footer__wrap {
         padding: 70px 32px 70px 32px;
         align-items: center;
+    }
+
+    .footer__menu {
+        margin: auto;
+        max-width: 1100px;
     }
 }
