@@ -54,6 +54,7 @@
     text-align: center;
     line-height: 32px;
     margin: auto;
+    margin-bottom: 20px
 
 }
 
@@ -170,7 +171,7 @@
     .open-day {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 20px;
+        margin-top: 30px;
         max-height: 366px;
         /* display: flex;
         flex-direction: row;
