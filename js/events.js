@@ -1,15 +1,4 @@
 // Зміна назви
-// (function () {
-//     function getTitleMessage() {
-//       const titleMessages = ["Our Bear Events", "Stay closer", "Stay tuned!"];
-//       return titleMessages[Math.floor(Math.random() * titleMessages.length)];
-//     } 
-//     const headerH2 = document.querySelector(".our-events__title");
-//     headerH2.innerText = getTitleMessage();
-// })()
-
-
-
 (function () {
   const titleMessages = ["Our Bear Events", "Stay closer", "Stay tuned!"];
   let currentMessageIndx = 0;
@@ -29,3 +18,13 @@
     setInterval(nextMessage, 2000);
     getTitleMessage();
 })()
+
+
+// (function () {
+//     function getTitleMessage() {
+//       const titleMessages = ["Our Bear Events", "Stay closer", "Stay tuned!"];
+//       return titleMessages[Math.floor(Math.random() * titleMessages.length)];
+//     } 
+//     const headerH2 = document.querySelector(".our-events__title");
+//     headerH2.innerText = getTitleMessage();
+// })()
