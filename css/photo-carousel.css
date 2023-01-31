@@ -1,15 +1,15 @@
 .main__section__gallery{
-    display: flex;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
     justify-content:center;
     align-items: center;
-    position: relative;
     min-height: 390px;
     background-color: var(--background-color-light);
 }
-/* .slide__container__carousel{
-    display: grid;
-    grid-template-columns: 100px 1fr 100px;
-} */
+.gallery__container{
+    display: flex;
+}
 .slides{
     width: 345px;
     height: 390px;

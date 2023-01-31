@@ -8,10 +8,24 @@
 
     let currentSlideIndex = 0;
 
-    function renderslide() {
+    function renderslide() { 
         const slidescontainer = document.querySelector('.gallery__container')
         slidescontainer.innerHTML = slides[currentSlideIndex]
+            if(window.innerWidth >= 768){
+                const secondslidIdx = currentSlideIndex + 1 >= slides.length ? 0 : currentSlideIndex + 1
+                slidescontainer.innerHTML += slides[secondslidIdx];
+                    if(window.innerWidth >= 1000){
+                        const thirddslidIdx = secondslidIdx + 1>= slides.length ? 0 : secondslidIdx + 1 
+                        slidescontainer.innerHTML += slides[thirddslidIdx];
+                        if(window.innerWidth >= 1300){
+                            const fourdslidIdx = thirddslidIdx + 1>= slides.length ? 0 :thirddslidIdx + 1 
+                            slidescontainer.innerHTML += slides[fourdslidIdx];
+                        }
+                    }
+            }
+
     }
+    window.addEventListener('resize',renderslide);
 
     function nextslide(){
         currentSlideIndex ++
@@ -21,7 +35,7 @@
         renderslide()
     }
 
-    setInterval(nextslide,3000);
+    // setInterval(nextslide,3000);
 
     renderslide();
 
