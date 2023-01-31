@@ -408,11 +408,13 @@
             </div>
         </section>
         <!-- Anna Seniuta -->
-        <div class="top-wave-separator">
-            <img class="top-wave-img" src="img/background_top_line.svg" alt="top torn line">
-        </div>
-        <section class="testimonials">
 
+        
+    
+        <section class="testimonials">
+            <div class="top-wave-separator">
+                <img class="top-wave-img" src="img/background_top_line.svg" alt="top torn line">
+            </div>
 
             <div class="testimonials__header">
                 <div class="separator-xxx">X X X</div>
@@ -421,8 +423,19 @@
 
                 <p class="testimonials__subtitle">Your feedback on our beer and brewery is our best reward.</p>
             </div>
+
+            <!-- Carousel -->
+            <div class="testimonials__carousel">
+                <button class="carousel__btn-prev">⬅️</button>
+
+                <div class="carousel__slide-container"></div>
+                <button class="carousel__btn-next">➡️</button>
+
+            </div>
+            <!-- end carousel -->
+            
             <div class="testimonials__customers">
-                <div class="testimonials__container">
+                <!--<div class="testimonials__container">
                     <div class="testimonials__customer">
                         <img class="cust-image_peterson" src="img/man_with_beer.png" alt="customer_with_beer_picture">
                         <p class="testimonials__customers customer-name">Tom Peterson</p>
@@ -461,7 +474,7 @@
                         </p>
                         <p class="testimonials__customers quote-date">April, 12 2022</p>
                     </div>
-                </div>
+                </div>-->
             </div>
 
         </section>
@@ -697,4 +710,6 @@
     <script src="js/photo-carousel.js"></script>
 </body>
 
+    <script src="js/testimonials_carousel.js"></script>
+</body>
 </html>
