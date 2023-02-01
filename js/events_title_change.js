@@ -1,8 +1,9 @@
-// Зміна назви
+// Зміна назви по черзі
+
 (function () {
   const titleMessages = ["Our Bear Events", "Stay closer", "Stay tuned!"];
   let currentMessageIndx = 0;
-  
+
   function getTitleMessage() {
     const headerH2 = document.querySelector(".our-events__title");
     headerH2.innerText = titleMessages[currentMessageIndx];
@@ -12,13 +13,14 @@
     currentMessageIndx =
       currentMessageIndx + 1 >= titleMessages.length
         ? (currentMessageIndx = 0) : currentMessageIndx + 1;
-        getTitleMessage();
+    getTitleMessage();
   }
 
-    setInterval(nextMessage, 2000);
-    getTitleMessage();
+  setInterval(nextMessage, 2000);
+  getTitleMessage();
 })()
 
+// Рандомна зміна Заголовку блоку Events
 
 // (function () {
 //     function getTitleMessage() {
