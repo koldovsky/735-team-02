@@ -66,7 +66,7 @@
     font-weight: 500;
     color: var(--color-subtitle);
     text-align: center;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     margin-left: auto;
     margin-right: auto;
     padding: 20px 20px 20px 20px;
@@ -164,7 +164,7 @@
     color: #aa7c5a;
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -203,10 +203,10 @@
 
 /* FOr  min-width: 1500px */
 @media (min-width: 1500px) {
-    /* .testimonials {
-        padding: 20px 40px 20px 60px; */
+     /* .testimonials {
+        padding: 20px 40px 20px 60px;
 
-    }
+    } */
     .testimonials__container {
         display: grid;
         justify-content: center;
