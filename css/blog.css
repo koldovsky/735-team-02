@@ -72,7 +72,12 @@
 }
 
 @media (min-width: 700px) {
-.articles_text {
+.articles__text {
     max-width: 600px;
+}
+.blog__button {
+    margin-left: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 }
