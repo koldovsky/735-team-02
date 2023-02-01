@@ -99,8 +99,12 @@
     color: var(--second_text-color);
     margin-bottom: 20px;
 }
+/* .carousel {
+    height: 664px;
 
-.open-day__side__clock,
+} */
+
+/* .open-day__side__clock,
 .festival__side__clock {
     font-family: 'Rubik';
     font-size: 17px;
@@ -108,7 +112,7 @@
     color: var(--second_text-color);
     margin-bottom: 20px;
      
-}
+} */
 .event-date {
     font-family: 'Frank Ruhl Libre';
     font-size: 14px;
@@ -153,7 +157,7 @@
 .open-day__side__clock,
 .festival__side__clock {
     font-family: 'Rubik';
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--second_text-color);
     height: 20px;
