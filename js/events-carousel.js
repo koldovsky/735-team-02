@@ -11,7 +11,7 @@
           "Do you want to know all the secrets of brewing? Want to understand how real craft beer is made? We will tell you, show you, and offer a free tasting.",
         button: "Book",
         eventImg: "img/our_events_bear_and_burrel.png",
-        timer: "open-day__side__clock"
+        timerFor: "open-day__side__clock"
       },
       {
         id: "festival",
@@ -22,7 +22,7 @@
           "Do you want to not only enjoy beer but also have fun? We're holding a festival! The best beers, live music and fantastic atmosphere are waiting!",
         button: "Book",
         eventImg: "img/autumn_bear_festival.png",
-        timer: "festival__side__clock"
+        timerFor: "festival__side__clock"
       },
     ];
 
@@ -39,7 +39,7 @@
                       <div class="side__content">
                           <p class="event-price">${event.eventPrice}</p>
                           <h3 class="event-title">${event.eventTitle}</h3>
-                          <p class="${event.timer}"></p>
+                          <p class="${event.timerFor}"></p>
                           <p class="event-date">${event.eventDate}</p>
                           <p class="event-text">${event.eventText}</p>
                           <a href="#footer" class="schedule-button">${event.button}</a>
@@ -66,7 +66,7 @@
           : currentSlideIdx + 1;
       renderCarousel();
     }
-    setInterval(nextSlide, 5000);
+    setInterval(nextSlide, 4000);
     nextSlide();
 
   
