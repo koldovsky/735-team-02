@@ -102,3 +102,15 @@
         display: flex;
     }
 }
+
+.carousel__bestsellers {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+.carousel__bestsellers-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
