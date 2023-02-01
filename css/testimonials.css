@@ -5,6 +5,7 @@
 }
 
 .top-wave-separator {
+    /* тут через 50% помилка */
     /* background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%); */
     max-height: 50px;
     width: 100%;
