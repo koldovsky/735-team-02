@@ -119,6 +119,7 @@
     font-weight: 900;
     color: var(--fourth_text-color);
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .event-text {
@@ -175,8 +176,8 @@
     .open-day {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 30px;
-        max-height: 366px;
+        /* margin-top: 30px; */
+        /* max-height: 366px; */
         /* display: flex;
         flex-direction: row;
         justify-content: center; */

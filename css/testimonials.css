@@ -5,7 +5,7 @@
 }
 
 .top-wave-separator {
-    background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%);
+    /* background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%); */
     max-height: 50px;
     width: 100%;
     height: 100%;
@@ -187,9 +187,9 @@
 /* FOr  min-width: 1000px */
 
 @media (min-width: 1000px) {
-    .testimonials {
+    /* .testimonials {
         padding: 20px 60px 20px 60px;
-    }
+    } */
 
     testimonials__header {
         max-width: 375px;
@@ -202,8 +202,8 @@
 
 /* FOr  min-width: 1500px */
 @media (min-width: 1500px) {
-    .testimonials {
-        padding: 20px 40px 20px 60px;
+    /* .testimonials {
+        padding: 20px 40px 20px 60px; */
 
     }
     .testimonials__container {
