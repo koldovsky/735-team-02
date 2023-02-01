@@ -66,7 +66,7 @@
           : currentSlideIdx + 1;
       renderCarousel();
     }
-    // setInterval(nextSlide, 4000);
+    setInterval(nextSlide, 4000);
     nextSlide();
 
   
