@@ -25,10 +25,10 @@
 
     //Events rendering 
     function renderEvents(events) {
-        const schedule__carousel = document.querySelector(".schedule__carousel");
-        schedule__carousel.innerHTML = '';
+        const schedule__list = document.querySelector(".schedule__list");
+        // schedule__list.innerHTML = '';
         for (const event of events) {
-            schedule__carousel.innerHTML += `
+            schedule__list.innerHTML += `
             <div class="schedule__open-day open-day ${event.id}">
                 <div class="open-day__left-side">
                         <img class="open-day__image" src="${event.eventImg}"
@@ -49,28 +49,6 @@
         }
     }
     renderEvents(events);
-
-
-    // Carousel
-
-    const openday = document.querySelector('.open-day')
-    const festival = document.querySelector('.festival')
-
-    const slides = [openday, festival];
-    let currentSlideIdx = 0;
-
-    function renderSlides() {
-        const slide_conteiner = document.querySelectorAll(".sliders");
-        slide_conteiner.innerHTML = slides[currentSlideIdx];
-    }
-
-    function nextSlide() {
-        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? currentSlideIdx = 0 : currentSlideIdx + 1;
-        renderSlides();
-    }
-    setInterval(nextSlide, 2000);
-    renderSlides()
-
 
 })()
 

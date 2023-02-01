@@ -125,7 +125,24 @@
             </div>
         </section>
         <section class="bestsellers">
-            <div class="bestsellers__info">
+            <div class="carousel__bestsellers">
+                <div class="carousel__btn-pre">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                </div>
+                <div class="carousel__bestsellers-slide"></div>
+                <div class="carousel__btn-go">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                    </svg>
+                </div>
+            </div>
+            <!--<div class="bestsellers__info">
                 <div class="stout_container">
                     <div class="stout_image-container">
                         <img class="botle" src="img/imperial_stout.png" alt="Botle of stout">
@@ -237,7 +254,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </section>
 
 
@@ -369,11 +386,12 @@
             </div>
 
             <div class="our-events__schedule schedule conteiner">
-                <div class="schedule__carousel conteiner">
-                    <div class="button__back">Hello</div>
-                    <div class="sliders"></div>
-                    <div class="button__forward"></div>
+                <div class="button__back">Hello</div>
+                <div class="carousel">
+                    <div class="schedule__list"></div>
                 </div>
+                <div class="button__forward"></div>
+
             </div>
             <!-- <div class="schedule__open-day open-day">
                         <div class="open-day__left-side">
@@ -579,9 +597,9 @@
             <p class="blog__subtitle">Want to learn more about craft beer and become a beer expert? We suggest reading
                 articles written by our brewers.</p>
             <div class="articles">
-                <h3 class="articles__text" >No blog posts yet..</h3>
+                <h3 class="articles__text">No blog posts yet..</h3>
             </div>
-                <a class="blog__button" href="#blog">Read more</a>      
+            <a class="blog__button" href="#blog">Read more</a>
         </section>
     </main>
     <!-- Yura Chorniy -->
@@ -685,14 +703,15 @@
     </footer>
     <script src="js/bestsellers-carousel.js"></script>
     <script src="js/events_title_change.js"></script>
-    <script src="js/events-render.js"></script>
-    <script src="js/events_timer.js"></script>
+    <script src="js/events-carousel.js"></script>
+    <script src="js/event_timerOpenDay.js"></script>
+    <script src="js/event_timerFestival.js"></script>
     <script src="js/our-brewery.js"></script>
     <script src="js/footer_btn.js"></script>
     <script src="js/photo-carousel.js"></script>
+    <script src="js/testimonials_carousel.js"></script>
 </body>
 
-<script src="js/testimonials_carousel.js"></script>
-</body>
+
 
 </html>
