@@ -42,3 +42,22 @@
     window.addEventListener('resize', renderSlides);
 
 })();
+(function () {
+
+    
+    function getRandomMessage() {
+        const messages = [
+            'DRUNK IN NEW YORK',
+            'OLD TRADITIONS',
+            'GET DRUNK AND FRAME CHICKS',
+            'MODERN EQUIPMENT',
+            'ATTENTION TO DETAIL'
+        ];
+        return messages[Math.floor(Math.random() * messages.length)];
+    }
+
+    const headerH1 = document.querySelector('.our-brewery__header');
+    setInterval( () => headerH1.innerText = getRandomMessage(), 3000);
+})();
+
+
