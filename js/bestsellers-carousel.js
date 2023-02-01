@@ -74,42 +74,43 @@
                         </div>
                     </div>
                 </div>`,
-        `<div class="american-ale_container">
-                    <div class="american-ale_image-container">
-                        <img class="botle" src="img/american_ale.png" alt="Botle of american ale">
-                    </div>
-                        <p class="separator_bestsellers">☓ ☓ ☓</p>
-                        <h2 class="beer__title">Our Bestsellers</h2>
-                        <img width="100" class="spikelet-separator" src="img/spikelet-separator.svg"
-                            alt="Spikelet separator">
-                        <p class="beer__gen">FRUITY</p>
-                        <p class="beer_name">AMERICAN PALE ALE</p>
-                        <p class="beer_about">
-                            American pale ale is similar to Indian pale ale, but in this case, only American-made
-                            hops
-                            and malt are used. At the same time, APA is characterized by a stunning combination of
-                            citrus notes: grapefruit, lemon, orange, as well as hop bitterness, traditional for ale.
-                        </p>
-                        <div class="american-ale_compositions">
-                            <div class="american-ale_composition">
-                                <p class="description">Extract</p>
-                                <span class="extract">16.00 %</span>
-                            </div>
-                            <div class="american-ale_composition">
-                                <p class="description">Alcohol</p>
-                                <span class="alcohol">5.8 %</span>
-                            </div>
-                            <div class="american-ale_composition">
-                                <p class="description">IBU</p>
-                                <span class="IBU">43</span>
-                            </div>
-                            <div class="american-ale_composition">
-                                <p class="description">Serving temperature</p>
-                                <span class="cerving">10 ℃</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>`,
+        `                <div class="american-ale_container">
+        <div class="american-ale_image-container">
+            <img class="botle" src="img/american_ale.png" alt="Botle of american ale">
+        </div>
+        <div class="american-ale_content">
+            <p class="separator_bestsellers">☓ ☓ ☓</p>
+            <h2 class="beer__title">Our Bestsellers</h2>
+            <img width="100" class="spikelet-separator" src="img/spikelet-separator.svg"
+                alt="Spikelet separator">
+            <p class="beer__gen">FRUITY</p>
+            <p class="beer_name">AMERICAN PALE ALE</p>
+            <p class="beer_about">
+                American pale ale is similar to Indian pale ale, but in this case, only American-made
+                hops
+                and malt are used. At the same time, APA is characterized by a stunning combination of
+                citrus notes: grapefruit, lemon, orange, as well as hop bitterness, traditional for ale.
+            </p>
+            <div class="american-ale_compositions">
+                <div class="american-ale_composition">
+                    <p class="description">Extract</p>
+                    <span class="extract">16.00 %</span>
+                </div>
+                <div class="american-ale_composition">
+                    <p class="description">Alcohol</p>
+                    <span class="alcohol">5.8 %</span>
+                </div>
+                <div class="american-ale_composition">
+                    <p class="description">IBU</p>
+                    <span class="IBU">43</span>
+                </div>
+                <div class="american-ale_composition">
+                    <p class="description">Serving temperature</p>
+                    <span class="cerving">10 ℃</span>
+                </div>
+            </div>
+        </div>
+    </div>`,
     ];
     let currentSlideIdx = 0;
 
