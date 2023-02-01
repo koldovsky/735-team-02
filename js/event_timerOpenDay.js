@@ -1,6 +1,6 @@
 (function () {
   const timer = document.querySelector(".open-day__side__clock");
-  timer.innerText = ''
+  timer.innerText = '';
 
   const x = setInterval(function () {
     const endTime = new Date("2023-08-19T23:59:59");
@@ -17,6 +17,7 @@
     }
     timer.innerText = "Days left: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-
+  
   }, 1000);
+  
 })()
