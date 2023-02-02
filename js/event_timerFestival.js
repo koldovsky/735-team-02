@@ -1,8 +1,8 @@
 (function() {
     const timer = document.querySelector(".festival__side__clock");
-    timer.innerText = ''
+    timer.innerText = '';
     
-    const y = setInterval(function() {
+    const y = setInterval(function () {
       const endTime = new Date("2023-09-01T23:59:59");
       const startTime = new Date().getTime('uk');
       const distance = endTime - startTime;
@@ -19,6 +19,7 @@
   
       
     }, 1000);
+    
     })()
 
    
