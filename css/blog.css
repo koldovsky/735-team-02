@@ -4,12 +4,14 @@
     margin-top: -5px;
     display: block;
 }
-.wseparator {
+
+.separator {
     color: var(--color-xxx);
     font: 14px;
     font-family: 'Frank Ruhl Libre', serif;
     margin-bottom: 15px;
 }
+
 .blog__title {
     color: var(--colot-title);
     font-size: 45px;
@@ -18,18 +20,22 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .wheat__separator-blog {
     margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 24px;
     width: 100px;
 }
+
 .blog__subtitle {
     color: var(--color-subtitle);
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     padding-bottom: 50px;
+    text-align: center;
 }
+
 .articles__text {
     color: rgb(38, 29, 23);
     font-size: 24px;
@@ -39,12 +45,13 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    margin: auto;
     border: 2px;
     border-style: solid;
     border-color: #d9d6cd;
     border-width: 1px;
 }
+
 .blog__button {
     background-color: rgb(44, 133, 54);
     border-color: rgb(44, 133, 54);
@@ -63,21 +70,35 @@
     text-decoration-line: none;
     text-align: center;
     justify-content: space-around;
-    margin-left: 460px;
-    margin-top: 460px; 
+    /* margin-left: 460px; */
+    margin-top: 460px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .blog__button:hover {
     background-color: #0d3b10;
     border-color: #0d3b10;
 }
 
-@media (max-width: 700px) {
-.articles__text {
-    max-width: 450px;
-}
-.blog__button {
-    margin-left: 250px;
-    margin-top: 440px;
-    margin-bottom: 0px;
-}
+@media (max-width: 900px) {
+    .blog__subtitle {
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .articles__text {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog__button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
