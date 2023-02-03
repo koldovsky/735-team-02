@@ -57,7 +57,12 @@
     margin-bottom: 20px
 }
 
-.schedule {
+.our-events__schedule {
+    display: flex;
+    align-items: center;
+}
+
+.schedule__schedule {
     height: 655px;
 }
 
@@ -156,10 +161,20 @@
     height: 20px;
 }
 
+.button__back,
+.button__forward {
+    transform: scale(0.3);
+    fill: var(--second_text-color);
+}
 
 
 @media (min-width: 700px) {
-    .schedule {
+    .our-events__schedule {
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+    }
+
+    .schedule__schedule {
         height: 420px;
     }
 

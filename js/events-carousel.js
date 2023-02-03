@@ -43,7 +43,7 @@
   const slidesArray = [];
   function arraySlides(events) {
     for (const event of events) {
-      slidesArray.push(`<div class="schedule schedule">
+      slidesArray.push(`<div class="schedule__schedule">
       <div class="schedule__open-day open-day ${event.id}">
               <div class="open-day__left-side">
                       <img class="open-day__image" src="${event.eventImg}"
