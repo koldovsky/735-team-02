@@ -71,7 +71,7 @@
     text-align: center;
     justify-content: space-around;
     /* margin-left: 460px; */
-    margin-top: 460px;
+    /* margin-top: 460px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -89,7 +89,7 @@
     }
 
     .articles__text {
-        width: 400px;
+        width: 320px;
         height: 400px;
         margin: auto;
         margin-left: auto;
