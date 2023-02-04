@@ -121,8 +121,7 @@
 /* --------------for pc-------------- */
 @media (min-width: 1200px) {
     .main__videotour {
-        padding: 70px 150px 15px 150px;
-        min-height: 1077px;
+        padding: 70px 40px 15px 40px;
     }
     .videotour__body{
         min-width: 1170px;
@@ -131,10 +130,15 @@
     .videotour__box {
         box-sizing: border-box;
         min-height: 664px;
-        min-width: 1000px;
+       
         background-size: cover;
     }
     .box__section {
         padding: 51px 51px;
+    }
+}
+@media (min-width: 1500px) {
+    .main__videotour {
+        padding: 70px 150px 15px 150px;
     }
 }

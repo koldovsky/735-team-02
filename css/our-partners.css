@@ -1,7 +1,7 @@
 .main__ourpartners {
     padding: 50px 24px;
     background-color: var(--background-color-light);
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .ourparters__header {
@@ -54,7 +54,6 @@
 }
 
 /* всі частини з фото і підписом */
-
 /* блок фото і підписом */
 .ourpartners__logo__container {
     padding: 0 20px;
@@ -75,7 +74,7 @@
 /* фото */
 .logo__container__img {
     width: 100%;
-    height: 100%;
+    /* max-height: 288px; */
     align-items: center;
     justify-content: center;
 }
@@ -91,11 +90,12 @@
 }
 
 .main__bottom__line {
-    background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%);
+    /* тут через 50% помилка */
+    background: linear-gradient(var(--background-color-light), var(--background-color));
     max-height: 50px;
     width: 100%;
     height: 100%;
-    margin: 0px 0 0px 0;
+    margin: 0px 0px 0px 0px;
 }
 
 .bottom__line {
@@ -107,9 +107,31 @@
     object-fit: contain;
 }
 /* --------------for pc-------------- */
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .main__ourpartners {
         padding: 15px 40px 0 40px;
+    }
+
+    .ourparters__header {
+        max-width: 500px;
+    }
+
+    .ourpartners__logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .logo__container__img{
+        min-height: 230px;
+    }
+}
+/* --------------for pc-------------- */
+@media (min-width: 992px) {
+    .main__ourpartners {
+        padding: 15px 40px 0 40px;
+        height: 300px;
     }
 
     .ourpartners {
@@ -123,20 +145,25 @@
     .ourpartners__logo {
         display: flex;
         align-items: center;
+        justify-content: center;
         flex: 1;
     }
+    .logo__container__img {
+        max-height: 230px;
+    }
+
 }
 /* --------------for pc-------------- */
 @media (min-width: 1500px) {
     .main__ourpartners {
         padding: 15px 150px 0 150px;
     }
-
+    
     .ourpartners__logo__container {
         display: grid;
         justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr;
+        align-items: center; 
+        grid-template-rows: 1fr;
     }
 
     .ourpartners__logo__container__img {
@@ -147,10 +174,9 @@
     }
 
     .logo__container__img {
-        width: 100%;
-        height: 100%;
+        max-height: 230px;
         display: grid;
         justify-content: center;
         align-items: center;
-    }
+    }  
 }
