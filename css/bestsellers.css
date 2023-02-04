@@ -3,7 +3,7 @@
 .botle {
     display: block;
     margin: auto;
-    width: 400px;
+    width: 250px;
 }
 
 .bestsellers {
@@ -41,8 +41,6 @@
     background-image: url(../img/background__barrels.webp);
     background-size: cover;
     background-position: 50% 50%;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .stout_compositions {
@@ -58,12 +56,11 @@
 }
 
 /*Indian*/
+
 .indian-ale_container {
     background-image: url(../img/background__barrels.webp);
     background-size: cover;
     background-position: 50% 50%;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .indian-ale_compositions {
@@ -74,12 +71,11 @@
 }
 
 /*American*/
+
 .american-ale_container {
     background-image: url(../img/background__barrels.webp);
     background-size: cover;
     background-position: 50% 50%;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .american-ale_compositions {
@@ -89,7 +85,7 @@
     text-align: left;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     .stout_container {
         display: flex;
     }
@@ -105,22 +101,28 @@
 
 .carousel__bestsellers {
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
-}
+    grid-template-columns: 20px 1fr 20px;
+    margin: auto;
+  }
 
 
 .carousel__bestsellers-slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 350px;
+    width: 100%;
 }
 
 .carousel__btn-pre {
     margin: auto;
+    background-color: var(--button-color_green);
+    border-radius: 10px;
+    color: var(--text-color);
 }
 
 .carousel__btn-go {
     margin: auto;
+    background-color: var(--button-color_green);
+    border-radius: 10px;
+    color: var(--text-color);
 }
-    

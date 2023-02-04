@@ -1,6 +1,7 @@
 .discover {
     background-color: var(--background-color);
 }
+
 /*
 .discover__separator-wave {
     background-color: var(--fourth_text-color);
@@ -37,4 +38,3 @@
     font-size: 20px;
     color: var(--text-color);
 }
-
