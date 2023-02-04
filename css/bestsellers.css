@@ -1,13 +1,33 @@
 /*joint*/
 
+.spikelet {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separator_bestsellers {
+    color: var(--second_text-color) ;
+    text-align: center;
+}
+
+/*.stout_image-container,
+.american-ale_image-container,
+.indian-ale_image-container {
+ width: 50%;
+}
+
+.stout_content,
+.indian-ale_content,
+.american-ale_content {
+width: 50%;
+}*/
+
 .botle {
     display: block;
     margin: auto;
-    width: 250px;
-}
-
-.bestsellers {
-    background: var(--background-color);
+    width: 100%;
 }
 
 .beer__title {
@@ -37,12 +57,6 @@
 
 /*Stout*/
 
-.stout_container {
-    background-image: url(../img/background__barrels.webp);
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
 .stout_compositions {
     color: var(--text-color);
     text-align: center;
@@ -50,18 +64,7 @@
     text-align: left;
 }
 
-.stout_composition_1 {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 /*Indian*/
-
-.indian-ale_container {
-    background-image: url(../img/background__barrels.webp);
-    background-size: cover;
-    background-position: 50% 50%;
-}
 
 .indian-ale_compositions {
     color: var(--text-color);
@@ -72,12 +75,6 @@
 
 /*American*/
 
-.american-ale_container {
-    background-image: url(../img/background__barrels.webp);
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
 .american-ale_compositions {
     color: var(--text-color);
     text-align: center;
@@ -87,7 +84,7 @@
 
 @media (min-width: 500px) {
     .stout_container {
-        display: flex;
+        display: flex;   
     }
 
     .indian-ale_container {
@@ -105,24 +102,30 @@
     margin: auto;
   }
 
-
-.carousel__bestsellers-slide {
+  .carousel__bestsellers-slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+   }
+
+.arrow-sellers {
+    margin: auto;
+    border-radius: 50%;
+    background: #108810;
+  }
+
+  .carousel__btn-go {
+    margin: auto;
+  }
+
+  .carousel__btn-pre {
+    margin: auto;
+  }
+
+.carousel__bestsellers {
+    background-image: url(../img/background__barrels.webp);
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
-.carousel__btn-pre {
-    margin: auto;
-    background-color: var(--button-color_green);
-    border-radius: 10px;
-    color: var(--text-color);
-}
 
-.carousel__btn-go {
-    margin: auto;
-    background-color: var(--button-color_green);
-    border-radius: 10px;
-    color: var(--text-color);
-}
