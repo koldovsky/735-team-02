@@ -185,3 +185,7 @@
 .modal__description {
     font-size: 1.125rem;
   }
+.section-visit__button1-contact {
+    text-decoration: none;
+    color: var(--text-color);
+}
