@@ -85,11 +85,12 @@
 @media (min-width: 320px) {
     .testimonials__carousel {
         display: grid;
-        grid-template-columns: 30px 260px 30px;
-        width: 80%;
-        max-width: 320px;
-        width: 80%;
-        margin: 0;
+        /* grid-template-columns: 30px 260px 30px; */
+        /* width: 80%; */
+        max-width: 1200px;
+        min-width: 320px;
+        /* width: 80%;
+        margin: 0; */
     }
 }
 
