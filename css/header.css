@@ -1,0 +1,118 @@
+.background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header_background_image.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.nav__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+.header__adress,
+.header__telephone {
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px
+}
+.menu__items {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px
+}
+
+.nav__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__nav__logo {
+    transform: scale(0.7);
+    }
+
+  
+.facebook,
+.instagram,
+.you-tube {
+    width: 30px;
+    height: 30px;
+}
+
+ 
+.info__title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: var(--second_text-color);
+    display: block;
+    margin: 50px 10px 30px 10px;
+}
+.info__undertitle {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 70px;
+    font-weight: 900;
+    color: var(--text-color);
+    line-height: 72px;
+    display: block;
+    margin: 30px 10px 30px 10px 
+} 
+
+.info__text {
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #aa7c5a;
+    margin-bottom: 40px;
+    display: block;
+    margin: 30px 10px 30px 10px;
+}
+
+.button__item {
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #2c8536;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'Rubik';
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.header__picture,
+.bunner__picture {
+    width: 350px;
+    margin: auto;
+}
+
+@media (min-width: 700px) {
+.nav__nav__menu {
+    margin-left: 275px;
+}  
+
+.header__bunner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header__picture,
+.bunner__picture {
+    width: 550px;
+    }
+}
