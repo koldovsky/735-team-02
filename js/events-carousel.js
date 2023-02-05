@@ -82,8 +82,18 @@
         : currentSlideIdx + 1;
     renderCarousel();
   }
-  setInterval(nextSlide, 4000);
+  // setInterval(nextSlide, 4000);
   nextSlide();
+
+  const buttonForward = document.querySelector(".button__forward")
+  buttonForward.addEventListener('click', nextSlide);
+
+  const buttonBack = document.querySelector(".button__back")
+  buttonBack.addEventListener('click', () => {
+    currentSlideIdx = currentSlideIdx - 1 < 0 ? slidesArray.length - 1 : currentSlideIdx - 1;
+    renderCarousel();
+  } )
+
 
   // Запуск таймера в слайді
 

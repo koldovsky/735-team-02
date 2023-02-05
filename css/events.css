@@ -161,9 +161,14 @@
     height: 20px;
 }
 
+.our-events__schedule {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+}
+
 .button__back,
 .button__forward {
-    transform: scale(0.3);
+    transform: scale(0.5);
     fill: var(--second_text-color);
 }
 
@@ -171,7 +176,7 @@
 @media (min-width: 700px) {
     .our-events__schedule {
         display: grid;
-        grid-template-columns: 0.5fr 3fr 0.5fr;
+        grid-template-columns: 0.2fr 3fr 0.2fr;
     }
 
     .schedule__schedule {
