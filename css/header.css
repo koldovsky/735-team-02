@@ -1,4 +1,4 @@
-.background-image {
+.header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header_background_image.png);
     background-size: cover;
     background-attachment: fixed;
@@ -12,6 +12,7 @@
     padding-top: 10px;
     margin-bottom: 10px;
     color: var(--text-color);
+    margin-left: 20px;
 }
 .header__adress,
 .header__telephone {
@@ -37,7 +38,9 @@
     align-items: center;
 }
 .nav__nav__logo {
-    transform: scale(0.7);
+    /* transform: scale(0.7); */
+    min-width: 130px;
+    margin-left: 20px;
     }
 
   
@@ -55,7 +58,7 @@
     letter-spacing: 4px;
     color: var(--second_text-color);
     display: block;
-    margin: 50px 10px 30px 10px;
+    margin: 50px 10px 30px 20px;
 }
 .info__undertitle {
     font-family: 'Frank Ruhl Libre', serif;
@@ -64,7 +67,7 @@
     color: var(--text-color);
     line-height: 72px;
     display: block;
-    margin: 30px 10px 30px 10px 
+    margin: 30px 10px 30px 20px 
 } 
 
 .info__text {
@@ -75,7 +78,7 @@
     color: #aa7c5a;
     margin-bottom: 40px;
     display: block;
-    margin: 30px 10px 30px 10px;
+    margin: 30px 10px 30px 20px;
 }
 
 .button__item {
