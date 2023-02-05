@@ -110,6 +110,11 @@
     margin-bottom: 20px;
 }
 
+.our-events__subtitle,
+.schedule__schedule {
+    max-width: 270px;
+}
+
 .event-date {
     font-family: 'Frank Ruhl Libre';
     font-size: 14px;
@@ -163,12 +168,12 @@
 
 .our-events__schedule {
     display: grid;
-    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .button__back,
 .button__forward {
-    transform: scale(0.5);
+    transform: scale(1);
     fill: var(--second_text-color);
 }
 
@@ -181,6 +186,11 @@
 
     .schedule__schedule {
         height: 420px;
+    }
+
+    .our-events__subtitle,
+    .schedule__schedule {
+        max-width: none;
     }
 
     .our-events-content {
@@ -225,6 +235,9 @@
         height: 100%
     }
 
-
+    .button__back,
+    .button__forward {
+        transform: scale(0.5);
+    }
 
 }
