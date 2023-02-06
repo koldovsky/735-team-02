@@ -1,156 +1,196 @@
 .main__ourpartners {
-    padding: 50px 24px;
-    background-color: var(--background-color-light);
-    min-height: 400px;
+  padding: 50px 24px;
+  background-color: var(--background-color-light);
+  min-height: 300px;
 }
 
 .ourparters__header {
-    box-sizing: border-box;
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+  padding: 0 15px;
 }
 
 .ourparters__x {
-    color: var(--color-xxx);
-    font-size: 14px;
-    font-weight: 700;
-    text-align: left;
-    font-family: "Frank Ruhl Libre", serif;
-    display: block;
-    line-height: 20px;
-    letter-spacing: 1.4px;
-    width: 375px;
+  color: var(--color-xxx);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  font-family: "Frank Ruhl Libre", serif;
+  display: block;
+  line-height: 20px;
+  letter-spacing: 1.4px;
 }
 
 .ourparters__title {
-    margin-top: 20px;
-    text-align: left;
-    color: var(--colot-title);
-    font-size: 34px;
-    font-family: "Frank Ruhl Libre", serif;
+  margin-top: 20px;
+  text-align: left;
+  color: var(--colot-title);
+  font-size: 34px !important;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
 }
 
 .wheat {
-    margin-top: 20px;
-    margin-left: -10px;
-    justify-content: left;
+  margin-top: 20px;
+  margin-left: -10px;
+  justify-content: left;
 }
 
 .top__text {
-    margin-top: 20px;
-    color: var(--color-subtitle);
-    font-family: "Rubik", sans-serif;
-    font-size: 20px;
+  margin-top: 15px;
+  color: var(--color-subtitle);
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
 }
 
 .bottom__text {
-    margin-top: 20px;
-    color: var(--color-subtitle-light);
-    font-size: 17px;
-    font-family: "Rubik", sans-serif;
+  margin-top: 15px;
+  color: var(--color-subtitle-light);
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
 }
 
 /* всі частини з фото і підписом */
-
 /* блок фото і підписом */
 .ourpartners__logo__container {
-    padding: 0 20px;
-    width: 100%;
-    height: 100%;
+  padding: 0 20px;
+  width: 100%;
+  height: 100%;
 }
 
 /* блок фото */
 .ourpartners__logo__container__img {
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 /* фото */
 .logo__container__img {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  /* max-height: 288px; */
+  align-items: center;
+  justify-content: center;
 }
 
 /* підпис */
 .logo__container__name {
-    font-size: 17px;
-    font-family: "Rubik", sans-serif;
-    color: var(--color-subtitle);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  color: var(--color-subtitle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main__bottom__line {
-    background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%);
-    max-height: 50px;
-    width: 100%;
-    height: 100%;
-    margin: 0px 0 0px 0;
+  /* тут через 50% помилка */
+  background: linear-gradient(
+    var(--background-color-light),
+    var(--background-color)
+  );
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
 }
 
 .bottom__line {
-    background-color: var(--background-color-light);
-    padding: 0 0 0 0;
-    width: 100%;
-    height: 100%;
-    transform: rotate(180deg);
-    object-fit: contain;
+  background-color: var(--background-color-light);
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+  object-fit: contain;
 }
 /* --------------for pc-------------- */
-@media (min-width: 1000px) {
-    .main__ourpartners {
-        padding: 15px 40px 0 40px;
-    }
+@media (min-width: 768px) {
+  .main__ourpartners {
+    padding: 15px 40px 0 40px;
+  }
 
-    .ourpartners {
-        display: flex;
-    }
+  .ourparters__header {
+    max-width: 500px;
+  }
+  .ourparters__title {
+    font-size: 39px !important;
+  }
 
-    .ourparters__header {
-        max-width: 375px;
-    }
+  .ourpartners__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .logo__container__img {
+    min-height: 230px;
+  }
+}
+/* --------------for pc-------------- */
+@media (min-width: 992px) {
+  .main__ourpartners {
+    padding: 15px 40px 0 40px;
+    height: 350px;
+  }
 
-    .ourpartners__logo {
-        display: flex;
-        align-items: center;
-        flex: 1;
-    }
+  .ourpartners {
+    display: flex;
+  }
+
+  .ourparters__header {
+    max-width: 375px;
+  }
+
+  .ourpartners__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  .logo__container__img {
+    max-height: 230px;
+  }
 }
 /* --------------for pc-------------- */
 @media (min-width: 1500px) {
-    .main__ourpartners {
-        padding: 15px 150px 0 150px;
-    }
+  .main__ourpartners {
+    padding: 50px 150px 0 150px;
+  }
+  .ourparters__x {
+    margin-bottom: 5px;
+  }
+  .ourparters__title {
+    margin-top: 5px;
+    font-size: 39px !important;
+  }
 
-    .ourpartners__logo__container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr;
-    }
+  .ourpartners__logo__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr;
+  }
 
-    .ourpartners__logo__container__img {
-        max-height: 230px;
-        max-width: 250px;
-        width: 100%;
-        height: 100%;
-    }
+  .ourpartners__logo__container__img {
+    max-height: 230px;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+  }
 
-    .logo__container__img {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
+  .logo__container__img {
+    max-height: 230px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
 }

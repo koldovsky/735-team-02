@@ -1,16 +1,16 @@
 .our-events__our-events {
     background-color: var(--background-color);
     min-width: 320px;
-    
+
 }
 
 .conteiner {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
 }
 
 .our-events-content {
-    max-width: 250px;
+    max-width: 320px;
     margin: auto;
     margin-bottom: 0px;
 }
@@ -26,7 +26,7 @@
 
 .side__content {
     width: 280px;
-    padding-left: 25px;
+    padding: 0 20px 0 20px;
 
 }
 
@@ -55,7 +55,15 @@
     line-height: 32px;
     margin: auto;
     margin-bottom: 20px
+}
 
+.our-events__schedule {
+    display: flex;
+    align-items: center;
+}
+
+.schedule__schedule {
+    height: 655px;
 }
 
 .open-day,
@@ -63,7 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-bottom: 20px; */
+
 }
 
 
@@ -72,6 +80,7 @@
     background-color: #392c26;
     padding-top: 20px;
     padding-bottom: 40px;
+    height: 445px;
 
 }
 
@@ -79,8 +88,9 @@
 .festival__image {
     display: block;
     width: 280px;
+    /* max-height: 210px; */
     object-fit: cover;
-    margin: 20px 0px 0px 0px;
+    /* margin: 20px 0px 0px 0px; */
 
 }
 
@@ -100,21 +110,18 @@
     margin-bottom: 20px;
 }
 
-.open-day__side__clock,
-.festival__side__clock {
-    font-family: 'Rubik';
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--second_text-color);
-    margin-bottom: 20px;
-     
+.our-events__subtitle,
+.schedule__schedule {
+    max-width: 270px;
 }
+
 .event-date {
     font-family: 'Frank Ruhl Libre';
     font-size: 14px;
     font-weight: 900;
     color: var(--fourth_text-color);
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .event-text {
@@ -143,6 +150,7 @@
     cursor: pointer;
 
 }
+
 .schedule-button:hover {
     position: relative;
     left: 5px;
@@ -150,40 +158,57 @@
     box-shadow: inset 10px 0px 10px#246c2d;
 }
 
-.open-day__side__clock,
-.festival__side__clock {
+.timer__clock {
     font-family: 'Rubik';
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--second_text-color);
     height: 20px;
+}
+
+.our-events__schedule {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button__back,
+.button__forward {
+    transform: scale(1);
+    fill: var(--second_text-color);
+}
+
+
+@media (min-width: 700px) {
+    .our-events__schedule {
+        display: grid;
+        grid-template-columns: 0.2fr 3fr 0.2fr;
     }
 
+    .schedule__schedule {
+        height: 420px;
+    }
 
+    .our-events__subtitle,
+    .schedule__schedule {
+        max-width: none;
+    }
 
-@media (min-width: 700px){
     .our-events-content {
         max-width: 720px;
         margin: auto;
-        
+
     }
 
     .open-day {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 30px;
-        max-height: 366px;
-        /* display: flex;
-        flex-direction: row;
-        justify-content: center; */
+
     }
 
     .festival {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* display: flex;
-        flex-direction:row-reverse;
-        justify-content: center; */
+
     }
 
     .open-day__right-side,
@@ -193,25 +218,26 @@
         width: 100%;
         height: 100%;
     }
-/* height */
+
     .open-day__image,
     .festival__image {
         width: 100%;
-        height: 100%; 
+        height: 100%;
+        /* max-height: 450px; */
         object-fit: cover;
         object-position: 50% 50%;
         margin: 0px;
-        
+
     }
 
     .side__content {
         width: 100%;
         height: 100%
-        /* min-height: 360px;
-        padding: 30px 20px;; */
     }
 
-    /* .conteiner {
-      padding: 20px;
-}  */
+    .button__back,
+    .button__forward {
+        transform: scale(0.5);
+    }
+
 }

@@ -5,6 +5,10 @@
 }
 
 .top-wave-separator {
+<<<<<<< HEAD
+=======
+    /* тут через 50% помилка */
+>>>>>>> 55e3136b24169bbfc1cde23f0d87b345401a475e
     /* background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%); */
     max-height: 50px;
     width: 100%;
@@ -65,7 +69,7 @@
     font-weight: 500;
     color: var(--color-subtitle);
     text-align: center;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     margin-left: auto;
     margin-right: auto;
     padding: 20px 20px 20px 20px;
@@ -75,7 +79,25 @@
 .testimonials__carousel {
     display: grid;
     grid-template-columns: 60px 1fr 60px;
+<<<<<<< HEAD
+=======
+    width: 80%;
+>>>>>>> 55e3136b24169bbfc1cde23f0d87b345401a475e
     margin: auto;
+}
+
+/* FOr  min-width: 320px */
+
+@media (min-width: 320px) {
+    .testimonials__carousel {
+        display: grid;
+        /* grid-template-columns: 30px 260px 30px; */
+        /* width: 80%; */
+        max-width: 1200px;
+        min-width: 320px;
+        /* width: 80%;
+        margin: 0; */
+    }
 }
 
 .carousel__slide-container {
@@ -161,7 +183,7 @@
     color: #aa7c5a;
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -185,9 +207,9 @@
 /* FOr  min-width: 1000px */
 
 @media (min-width: 1000px) {
-    .testimonials {
+    /* .testimonials {
         padding: 20px 60px 20px 60px;
-    }
+    } */
 
     testimonials__header {
         max-width: 375px;
@@ -200,10 +222,10 @@
 
 /* FOr  min-width: 1500px */
 @media (min-width: 1500px) {
-    .testimonials {
+     /* .testimonials {
         padding: 20px 40px 20px 60px;
 
-    }
+    } */
     .testimonials__container {
         display: grid;
         justify-content: center;

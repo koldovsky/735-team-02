@@ -27,6 +27,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .spikelet-separator {
@@ -39,21 +40,27 @@
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 0px 250px 50px 250px;
+    
 }
 
 .our-brewery-carousel-item {
     display: flex;
     flex-direction: column;
-    width: 270px;
+    justify-content: space-between;
+    width: 100%;
     height: 387px;
-    margin: 10px;
-    padding: 10px 0;
     line-height: 25.5px;
+    padding-left: 20px;
+    
   }
   
   .our-brewery__carousel {
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 80px 1fr 100px;
+    padding-bottom: 100px;
+    
   }
   
   .our-brewery-carousel__slide-container--second {
@@ -62,12 +69,10 @@
   
   .our-brewery-carousel__slide-container {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin: 20px auto;
-    object-fit: cover;
-    object-position: center;
-    width: 50%;
+    width: 100%;
+    height: 100%;
   }
 
   .our-brewery-carousel__btn-prev {
@@ -94,7 +99,7 @@
 
 .separator-wave {
     background-color: var(--fourth_text-color);
-    max-width: 1200px;
+    width: 100%;
 }
 
 @media (min-width: 400px) {

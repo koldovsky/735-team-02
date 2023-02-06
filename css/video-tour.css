@@ -1,140 +1,152 @@
 .main__videotour {
-    background: url("../img/background_light.png") 40%;
-    background-size: cover;
-    min-height: 600px;
+  background: url("../img/background_light.png") 40%;
+  background-size: cover;
+  min-height: 600px;
 }
 
 .videotour__header {
-    box-sizing: border-box;
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    line-height: 30px;
-    padding: 30px 24px 30px 24px;
-    text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  line-height: 30px;
+  padding: 30px 24px 0 24px;
+  text-align: center;
 }
 
 .videotour__x {
-    color: var(--color-xxx);
-    font-size: 14px;
-    text-align: left;
-    font-family: "Frank Ruhl Libre", serif;
-    font-weight: 700;
+  color: var(--color-xxx);
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
 }
 
 .videotour__title {
-    color: var(--colot-title);
-    margin-top: 20px;
-    font-size: 34px;
-    font-family: "Frank Ruhl Libre", sans-serif;
+  color: var(--colot-title);
+  margin: 10px 0 0 0;
+  font-size: 34px !important;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
 }
 
 .videotour__wheat {
-    margin-top: 20px;
-    width: 100px;
+  margin-top: 10px;
+  width: 100px;
 }
 
 .videotour__subtitle {
-    margin-top: 5px;
-    font-size: 20px;
-    font-family: "Rubik", serif;
-    line-height: 32px;
-    color: var(--color-subtitle);
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Rubik", serif;
+  line-height: 32px;
+  color: var(--color-subtitle);
 }
 
 .videotour__body {
-    padding: 30px 24px 30px 24px;
+  padding: 30px 24px 30px 24px;
 }
 
 .videotour__body__img {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .videotour__box {
-    box-sizing: border-box;
-    min-height: 490px;
-    max-height: 500px;
-    min-width: 312px;
-    background-image: url(../img/brewery.webp);
-    background-size: cover;
-    background-position: 50% 50%;
+  box-sizing: border-box;
+  min-height: 490px;
+  max-height: 500px;
+  min-width: 312px;
+  background-image: url(../img/brewery.webp);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .box__section {
-    padding: 36px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .videotour__body__img-pausa {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 /* -----------for galaxu fold-------------*/
 @media (min-width: 280px) {
-    .videotour__box {
-        min-width: 200px;
-    }
+  .videotour__box {
+    min-width: 200px;
+  }
 }
 /* -----------for ipad--------------------*/
 @media (min-width: 768px) {
-    .videotour__title{
-        font-size: 39px;
-    }
-    .videotour__body__img-pausa {
-        width: 70px;
-        height: 70px;
-    }
-    .videotour__body {
-        padding: 0 32px;
-    }
-    .videotour__box {
-        min-height: 575.4px;
-    }
-    .box__section {
-        padding: 44px;
-    }
+  .videotour__title {
+    font-size: 39px !important;
+  }
+  .videotour__body__img-pausa {
+    width: 70px;
+    height: 70px;
+  }
+  .videotour__body {
+    padding: 0 32px;
+  }
+  .videotour__box {
+    min-height: 575.4px;
+  }
+  .box__section {
+    padding: 44px;
+  }
 }
 /* -----------for laptop-----------------*/
 @media (min-width: 1024px) {
-    .videotour__body {
-        padding: 0 40px;
-    }
-    .videotour__title{
-        font-size: 44px;
-    }
-    .videotour__box {
-        min-height: 664px;
-    }
-    .box__section {
-        padding: 55px;
-    }
+  .videotour__header {
+    padding-bottom: 30px;
+  }
+  .videotour__body {
+    padding: 0 40px;
+  }
+  .videotour__title {
+    font-size: 44px !important;
+  }
+  .videotour__box {
+    min-height: 664px;
+  }
+  .box__section {
+    padding: 55px;
+  }
 }
 /* --------------for pc-------------- */
 @media (min-width: 1200px) {
-    .main__videotour {
-        padding: 70px 150px 15px 150px;
-        min-height: 1077px;
-    }
-    .videotour__body{
-        min-width: 1170px;
-        padding: 0;
-    }
-    .videotour__box {
-        box-sizing: border-box;
-        min-height: 664px;
-        min-width: 1000px;
-        background-size: cover;
-    }
-    .box__section {
-        padding: 51px 51px;
-    }
+  .main__videotour {
+    padding: 70px 40px 15px 40px;
+  }
+  .videotour__wheat {
+    margin: 25px 0;
+  }
+  .videotour__body {
+    min-width: 1170px;
+    padding: 0;
+  }
+  .videotour__box {
+    box-sizing: border-box;
+    min-height: 664px;
+
+    background-size: cover;
+  }
+  .box__section {
+    padding: 51px 51px;
+  }
+}
+@media (min-width: 1500px) {
+  .main__videotour {
+    padding: 70px 150px 15px 150px;
+  }
 }
