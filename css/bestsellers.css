@@ -1,131 +1,155 @@
-/*joint*/
+/*!*joint*!*/
 
-.spikelet {
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.bestsellers__carousel {
+    position: relative;
+    z-index: 1;
 }
 
-.separator_bestsellers {
-    color: var(--second_text-color) ;
-    text-align: center;
-}
-
-/*.stout_image-container,
-.american-ale_image-container,
-.indian-ale_image-container {
- width: 50%;
-}
-
-.stout_content,
-.indian-ale_content,
-.american-ale_content {
-width: 50%;
-}*/
-
-.botle {
-    display: block;
-    margin: auto;
+.bestsellers__carousel-nav {
+    position: absolute;
     width: 100%;
-}
-
-.beer__title {
-    color: var(--text-color);
-    font-size: 44px;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Rubik', sans-serif;
-}
-
-.beer_about {
-    color: var(--third_text-color);
-}
-
-.description {
-    color: var(--fourth_text-color);
-}
-
-.beer_name {
-    color: var(--second_text-color);
-    font-family: 'Frank Ruhl Libre', sans-serif;
-}
-
-.beer__gen {
-    color: var(--text-color);
-}
-
-/*Stout*/
-
-.stout_compositions {
-    color: var(--text-color);
-    text-align: center;
-    width: 70%;
-    text-align: left;
-}
-
-/*Indian*/
-
-.indian-ale_compositions {
-    color: var(--text-color);
-    text-align: center;
-    width: 40%;
-    text-align: left;
-}
-
-/*American*/
-
-.american-ale_compositions {
-    color: var(--text-color);
-    text-align: center;
-    width: 40%;
-    text-align: left;
-}
-
-@media (min-width: 500px) {
-    .stout_container {
-        display: flex;   
-    }
-
-    .indian-ale_container {
-        display: flex;
-    }
-
-    .american-ale_container {
-        display: flex;
-    }
-}
-
-.carousel__bestsellers {
-    display: grid;
-    grid-template-columns: 20px 1fr 20px;
-    margin: auto;
-  }
-
-  .carousel__bestsellers-slide {
+    top: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-   }
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-.arrow-sellers {
-    margin: auto;
-    border-radius: 50%;
-    background: #108810;
-  }
+.bestsellers__carousel--nav-prev,
+.bestsellers__carousel--nav-next {
+    width: 30px;
+    cursor: pointer;
+}
 
-  .carousel__btn-go {
-    margin: auto;
-  }
+.bestsellers__carousel--nav-prev svg,
+.bestsellers__carousel--nav-next svg {
+    fill: var(--color-green-dates);
+}
 
-  .carousel__btn-pre {
-    margin: auto;
-  }
-
-.carousel__bestsellers {
-    background-image: url(../img/background__barrels.webp);
+.bestsellers__carousel-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("../img/background__barrels.webp");
     background-size: cover;
     background-position: 50% 50%;
 }
 
+.bestsellers__carousel--slider {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.bestsellers-info {
+    display: flex;
+}
+
+.bestsellers-info--img {
+    width: calc(100% - 600px);
+    min-width: 400px;
+    margin: auto;
+}
+
+.bestsellers-info--img img {
+    max-width: 100%;
+    display: block;
+}
+
+.bestsellers-info-content {
+    max-width: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bestsellers-info-content {
+    color: var(--text-color);
+    text-align: left ;
+}
+
+.bestsellers-info-headline {
+    color: var(--second_text-color) ;
+}
+
+.bestsellers-info-content-title {
+    color: var(--text-color);
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 30px;
+}
+
+.bestsellers-info-content-icon {
+    margin-bottom: 20px;
+}
+
+.bestsellers-info-content-icon img {
+    max-width: 100%;
+    display: block;
+    transform: translateX(-15px);
+    position: relative;
+}
+
+.bestsellers-info-content-type {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bestsellers-info-content-subtitle {
+    color: var(--second_text-color);
+    font-size: 46px;
+    font-weight: bold;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+.bestsellers-info-content-about {
+    color: var(--third_text-color);
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.bestsellers-info-content-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bestsellers-info-content-details--elem {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.bestsellers-info-content-details--elem p {
+    margin-bottom: 0;
+    color: var(--color-text-info);
+    font-size: 17px;
+}
+
+.bestsellers-info-content-details--elem span {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .bestsellers-info {
+        flex-direction: column;
+    }
+
+    .bestsellers-info--img {
+        margin: 0 auto;
+    }
+    .bestsellers__carousel--nav-prev svg,
+    .bestsellers__carousel--nav-next svg {
+        background-color: var(--color-green-dates);
+        border-radius: 50%;
+        margin: auto;
+        opacity: 0.7;
+        fill: var(--background-color_choice);
+        }
+
+    .bestsellers-info--img {
+        min-width: 400px;
+        margin: auto;
+    }
+}
