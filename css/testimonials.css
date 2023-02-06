@@ -5,10 +5,7 @@
 }
 
 .top-wave-separator {
-<<<<<<< HEAD
-=======
     /* тут через 50% помилка */
->>>>>>> 55e3136b24169bbfc1cde23f0d87b345401a475e
     /* background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%); */
     max-height: 50px;
     width: 100%;
@@ -79,10 +76,7 @@
 .testimonials__carousel {
     display: grid;
     grid-template-columns: 60px 1fr 60px;
-<<<<<<< HEAD
-=======
     width: 80%;
->>>>>>> 55e3136b24169bbfc1cde23f0d87b345401a475e
     margin: auto;
 }
 
