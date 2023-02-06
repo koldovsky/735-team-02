@@ -6,7 +6,7 @@
       'Testimonials',
       'Enjoy Beer',
       'What We Work For',
-      "LET'S PARTY"
+      "Lets Party"
     ];
       return messages[Math.floor(Math.random() * messages.length)];
   
