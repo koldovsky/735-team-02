@@ -1,13 +1,20 @@
 .section-visit__wrapper {
     width: 100%;
-    background: var(--background-color_dark); 
+    background-color: var(--background-color_dark); 
+    background-image: url(../img/beer_and_leaves.png);
     background-attachment: fixed;
     background-size: cover;
     /*rgba(255, 255, 255, 0);*/
 }
 .section-visit__container {
-    max-width: 430px;
+    max-width: 272px;
     margin: 0 auto;     
+}
+@media (min-width: 480px) {
+    .section-visit__container {
+        max-width: 432px;
+        margin: 0 auto;
+    } 
 }
 @media (min-width: 768px) {
     .section-visit__container {
@@ -17,40 +24,70 @@
 }
 @media (min-width: 980px) {
     .section-visit__container {
-        max-width: 896px;
+        max-width: 894px;
         margin: 0 auto;
     }     
+}
+.title {
+    font-size: 58px;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .title {
+        font-size: 71px;
+    } 
 }
 .section-visit__title {
     font-size: 58px;
     font-weight: bold;
     color: var(--text-color);
     font-family: 'Frank Ruhl Libre', sans-serif;
-    max-width: 260px;
     padding-bottom: 40px;    
 }
-.section-visit__separator {
-    font-size: 14px;
+@media (min-width: 768px) {
+    .title {
+        max-width: 260px;
+    } 
+}
+@media (min-width: 980px) {
+    .title {
+        max-width: 314px;
+    } 
+}
+.section-visit__separat {
+    font-size: 20px;
     font-family: 'Frank Ruhl Libre', sans-serif;
     color: var(--second_text-color);
     padding-bottom: 20px;
     padding-top: 100px;
+    max-width: 43px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
 }
-.section-visit__spikelet-separator {
+.section-visit__spikelet-separat {
     padding-bottom: 30px;
+}
+.spikelet-separat {
+    width: 100px;
 }
 .section-visit__subtitle {
     font-size: 20px;
     font-weight: bold;
     color: var(--text-color);
     font-family: 'Rubik', sans-serif;
-    max-width: 277px;
+    max-width: 280px;
     padding-bottom: 40px;
+}
+@media (min-width: 980px) {
+    .section-visit__subtitle {
+        max-width: 360px;
+    } 
 }
 .section-visit__buttons {
     padding-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 560px) {
     .section-visit__buttons {
         display: flex;
         gap: 30px;
@@ -65,9 +102,12 @@
     font-family: 'Rubik', sans-serif;
     color: var(--text-color);
     align-items: center;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-left: 50px;
     margin-bottom: 20px;
+}
+.section-visit__button1:hover {
+    background-color: var(--button-color_darkgreen);
 }
 .section-visit__button2 {
     width: 187px;
@@ -80,11 +120,72 @@
     align-items: center;
     padding-top: 15px;
     padding-left: 55px; 
-    margin-bottom: 20px;       
+    margin-bottom: 50px;       
 }
-/*.section-visit__picture {
-    width: auto;
-    height: 842px;  
-    position: relative;  
+.section-visit__button2:hover {
+    background-color: var(--button-color_green);
 }
-<img class="section-visit__picture" src="img/beer_and_leaves.png" alt="Beer and leaves">*/
+.hidden {
+    overflow: hidden;
+}
+.modal {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    top: -1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    padding: 60px 15px;
+}   
+  .modal_active {
+    position: fixed;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+.modal__content {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 5px 15px black;
+    font-weight: bold;
+}
+.modal__close-button {
+    background: #ff0000;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+}
+.modal__close-button:hover {
+    transition: .3s;
+    transform: rotate(180deg);
+}
+.modal__description {
+    font-size: 1.125rem;
+  }
+.section-visit__button1-contact {
+    text-decoration: none;
+    color: var(--text-color);
+}

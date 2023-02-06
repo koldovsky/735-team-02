@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Frank+Ruhl+Libre&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,12 +16,13 @@
     --text-color: #fff;
     --background-color: #2c221d;
     --background-color-light: rgb(244, 238, 225);
+    --background-color_dark: #261d17;
     --color-xxx: rgb(150, 90, 28);
     --colot-title: #261d17;
     --color-subtitle: #614e44;
     --color-subtitle-light: #aa7c5a;
     --color-our-brewery: rgb(44, 34, 29);
-    --color-green-dates: rgb(44, 133, 54);
+    --color-green-dates: #2c8536;
     --color-text-info: #d2c9ba;
     --color-tablet-border: rgba(170, 124, 90, 0.15);
     --color-tablet-form: #342924;
@@ -33,6 +34,10 @@
     --button-color_darkgreen: darkgreen;
     --background-color_choice: #f4eee1;
     --text-color_choice: #614e44;
+    --dark-shadow-color: #261d17;
+    --bs-accordion-bg: #f4eee1;
+    --xxx-choice_color: #965A1C;
+    --bs-accordion-inner-border-radius: none;    
 }
 
 .container {

@@ -7,7 +7,7 @@
         <div class="stout_content">
             <p class="separator_bestsellers">☓ ☓ ☓</p>
             <h2 class="beer__title">Our Bestsellers</h2>
-            <img width="100" class="spikelet-separator" src="img/spikelet-separator.svg"
+            <img width="100" class="spikelet" src="img/spikelet-separator.svg"
                 alt="Spikelet separator">
             <p class="beer__gen">WHEAT MALT</p>
             <p class="beer_name">IMPERIAL STOUT</p>
@@ -45,7 +45,7 @@
                     <div class="indian-ale_content">
                         <p class="separator_bestsellers">☓ ☓ ☓</p>
                         <h2 class="beer__title">Our Bestsellers</h2>
-                        <img width="100" class="spikelet-separator" src="img/spikelet-separator.svg"
+                        <img width="100" class="spikelet" src="img/spikelet-separator.svg"
                             alt="Spikelet separator">
                         <p class="beer__gen">MALT</p>
                         <p class="beer_name">INDIAN PALE ALE</p>
@@ -74,14 +74,14 @@
                         </div>
                     </div>
                 </div>`,
-        `                <div class="american-ale_container">
+        `<div class="american-ale_container">
         <div class="american-ale_image-container">
             <img class="botle" src="img/american_ale.png" alt="Botle of american ale">
         </div>
         <div class="american-ale_content">
             <p class="separator_bestsellers">☓ ☓ ☓</p>
             <h2 class="beer__title">Our Bestsellers</h2>
-            <img width="100" class="spikelet-separator" src="img/spikelet-separator.svg"
+            <img width="100" class="spikelet" src="img/spikelet-separator.svg"
                 alt="Spikelet separator">
             <p class="beer__gen">FRUITY</p>
             <p class="beer_name">AMERICAN PALE ALE</p>
@@ -110,7 +110,7 @@
                 </div>
             </div>
         </div>
-    </div>`,
+        </div>`,
     ];
     let currentSlideIdx = 0;
 
