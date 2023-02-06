@@ -4,7 +4,7 @@
 .section-choice__container {
     max-width: 272px;
     margin: 0 auto;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 @media (min-width: 480px) {
     .section-choice__container {
