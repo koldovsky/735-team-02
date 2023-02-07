@@ -46,7 +46,7 @@
 
 .bestsellers-info--img {
     width: calc(100% - 600px);
-    min-width: 400px;
+    min-width: 380px;
     margin: auto;
 }
 

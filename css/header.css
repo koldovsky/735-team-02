@@ -117,7 +117,7 @@
 
 .header__picture,
 .bunner__picture {
-    width: 550px;
+    width: 405px;
     }
 }
     .divClass {
@@ -195,12 +195,11 @@
     }
     .navigationList {
     list-style: none;
-    width: 80%;
     margin: auto;
     height: inherit;
     display: flex;
-    margin-left: 300px; 
-    margin-top: 32px;  
+    margin-top: 32px;
+    padding: 0;  
     }
     .nav-link:hover {
     color: var(--second_text-color);
